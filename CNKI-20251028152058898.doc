@@ -1,0 +1,160 @@
+SrcDatabase-来源库: 外文期刊
+Title-题名: Enhancing hierarchical learning of real-time optimization and model predictive control for operational performance
+Author-作者:Rui Ren;Shaoyuan Li
+Organ-单位: Department of Automation; Shanghai Jiao Tong University; and Key Laboratory of System Control and Information processing; Ministry of Education of China; Shanghai 200240; China
+Source-文献来源: Journal of Process Control
+Keyword-关键词: Process control;Real-time optimization;Reinforcement learning;Model predictive control
+Summary-摘要: In process control, the integration of Real-Time Optimization (RTO) and Model Predictive Control (MPC) enables the system to achieve optimal control over both long-term and short-term horizons, thereby enhancing operational efficiency and economic performance. However, this integration still faces several challenges. In the two-layer structure, the upper layer RTO involves solving nonlinear programming problems with significant computational complexity, making it difficult to obtain feasible solutions in real-time within the limited optimization horizon. Simultaneously, the lower layer MPC must solve rolling optimization problems within a constrained time frame, placing higher demands on real-time performance. Additionally, uncertainties in the system affect both optimization and control performance. To address these issues, this paper proposes a noval hierarchical learning approach for RTO and MPC controller using reinforcement learning. This method learns the optimal strategies for RTO and MPC across differ...
+
+SrcDatabase-来源库: 外文期刊
+Title-题名: Application of hierarchical optimization of gates and units, and flow-classification water level control rules, and model predictive control in reservoir real-time optimal scheduling
+Author-作者:Zhongzheng He;Jiahao Lu;Banghao Li;Jun Guo;Chen Ji;Hui Qin
+Organ-单位: School of Infrastructure Engineering; Nanchang University; Nanchang; 330031; China;Key Laboratory of Poyang Lake Environment and Resources Utilization; Ministry of Education; Nanchang University; Nanchang 330031; China;School of Civil and Hydraulic Engineering; Huazhong University of Science and Technology; Wuhan 430074; China;Hubei Key Laboratory of Digital Valley Science and Technology; Huazhong University of Science and Technology; Wuhan 430074; China;School of Infrastructure Engineering; Nanchang University;Nanchang;330031;China;School of Civil and Hydraulic Engineering; Huazhong University of Science and Technology;Wuhan;430074;China
+Source-文献来源: Journal of Hydrology: Regional Studies
+Keyword-关键词: Reservoir real-time optimal scheduling (ROS);Hierarchical optimisation strategy (HOS) of gates and units;Flow-classification water level control rules (FWCR);Model predictive control (MPC);Short-term runoff forecasting
+Summary-摘要: Study region(#br)This study used the Xiajiang Reservoir (China) as a case study.(#br)Study focus(#br)This study focuses on the following issues in reservoir scheduling: low efficiency of gate-unit optimisation, difficulty in controlling end-period water levels, and difficulty in achieving real-time scheduling with uncertain incoming water. This study constructs a hierarchical real-time optimisation scheduling (ROS) model, proposes an end-period water level control strategy integrating flow-classification water-level control rules (FWCR), and introduces model predictive control (MPC) to address the uncertainty of inflow. The main contributions of this study are as follows: (1) Hierarchical optimisation strategy (HOS) decomposes high-dimensional optimisation into upper-level unit-virtual aggregated gate joint optimisation and lower-level multi-gate discharge optimisation; (2) FWCR ensures end-period water level safety; (3) Constructed an MPC framework with ROS module to achieve real-time scheduling under water ...
+
+SrcDatabase-来源库: 外文期刊
+Title-题名: Real-Time Optimization Improved Model Predictive Control Trajectory Tracking for a Surface and Underwater Joint Observation System Based on Genetic Algorithm–Fuzzy Control
+Author-作者:Qichao Wu;Yunli Nie;Shengli Wang;Shihao Zhang;Tianze Wang;Yizhe Huang
+Organ-单位: College of Ocean Science and Engineering; Shandong University of Science and Technology; Qingdao 266590; China
+Source-文献来源: Remote Sensing
+Keyword-关键词: remote sensing monitoring;trajectory tracking;IMPC;fuzzy control;genetic algorithm;real-time optimization
+Summary-摘要: Aiming at the high-precision trajectory tracking problem of the new surface and underwater joint observation system (SUJOS) in the ocean remote sensing monitoring mission under complex sea conditions, especially at the problem of excessive tracking errors and slow convergence of actual trajectory oscillations caused by the wide range of angular changes in the motion trajectory, a real-time optimization improved model predictive control (IMPC) trajectory tracking method based on fuzzy control is proposed. Initially, the novel observation platform has been designed, and its mathematical model has been systematically established. In addition, this study optimizes the MPC trajectory tracking framework by integrating the least squares adaptive algorithm and the Extended Alternating Direction Method of Multipliers (EADMM). In addition, a fuzzy controller, optimized using a genetic algorithm, an output of real-time optimization coefficients, is employed to dynamically adjust and optimize the bias matrix within the o...
+
+SrcDatabase-来源库: 期刊
+Title-题名: 典型热泵蓄能系统模型预测控制方法研究及模拟实验分析
+Author-作者:孙宗宇;李锦堂;乔镖;张广秋;梁书奎;杜国付;李骥
+Organ-单位: 中国建筑科学研究院有限公司
+Source-文献来源: 建筑科学
+Keyword-关键词: 热泵蓄能系统;MPC;实时优化控制;仿真平台
+Summary-摘要: 本文提出了1种用于热泵蓄能系统的模型预测控制(Model Predictive Control, MPC)框架，并针对1个实际系统提出了相应的负荷预测、系统模型和MPC优化算法。通过建立的仿真平台对固定日程控制(Rule-Based Control, RBC)和MPC方式进行了模拟实验测试和分析，测试后的算法可以方便地移植到实际控制系统中。对比分析结果表明MPC控制方式可以提高系统运行期间的蓄能率，并计及了机组性能系数(Coefficient of Performance, COP)、蓄能速率、水泵能耗以及热损失差异，从而可以获得更好的运行效果和系统稳定性。
+
+SrcDatabase-来源库: 外文期刊
+Title-题名: A real-time optimization method in multi-terminal DC distribution system based on adaptive model predictive control
+Author-作者:Zida Zhao;Ke Peng;Richang Xian;Xinhui Zhang
+Organ-单位: Shandong University of Technology; Zibo; China
+Source-文献来源: Sustainable Energy Technologies and Assessments
+Keyword-关键词: Multi-terminal DC distribution system;Oscillation source judgment indexes;Weighting coefficients;Adaptive model predictive control;Voltage oscillation
+Summary-摘要: An efficient measure to eliminate voltage oscillation of a multi-terminal DC distribution system (MTDCDS) is locating oscillation source timely and adjusting its control parameters. Combined with oscillation source judgment indexes (OSJIs), a control parameters optimization method based on adaptive model predictive control (A-MPC) is proposed. Specifically, based on the static model, a new adaptive updating mechanism of weighting coefficients is proposed. The mechanism adjusts the weighting coefficients according to the real-time states and OSJIs adaptively. Furthermore, taking the minimum weighted square sum of the voltage tracking error and control parameters increment as objective. Compared with the traditional model predictive control (MPC), the proposed method directly adjusts the control parameters of the oscillation source adaptively. which can significantly improve the system response performance and reduce the control cost. The performance has been evaluated using the MATLAB/Simulink and RT Box exper...
+
+SrcDatabase-来源库: 期刊
+Title-题名: 一种基于模型预测控制的主动配电网实时优化调度方法
+Author-作者:燕良坤;周云海;肖兵;高怡欣;石基辰;崔黎丽
+Organ-单位: 三峡大学电气与新能源学院;宜都兴发化工有限公司
+Source-文献来源: 水电与新能源
+Keyword-关键词: 主动配电网;实时调度;模型预测控制;二阶锥松弛
+Summary-摘要: 针对新能源发电的不确定性，本文提出了一种基于模型预测控制的主动配电网实时优化调度方法，对可控负荷进行建模，建立以主动配电网有功调整量最小为目标的实时反馈校正模型，并通过二阶锥松弛将非凸非线性规划问题转化为二阶锥规划问题，保证有效求解，在改进的IEEE33节点系统中进行仿真分析，结果验证了所提方法的有效性和优越性，对提高新能源的消纳率和系统的经济性具有重要作用。
+
+SrcDatabase-来源库: 硕士
+Title-题名: 车用永磁同步电机模型预测控制优化研究
+Author-作者:刘子焜
+Organ-单位: 长安大学
+Source-文献来源: 长安大学
+Keyword-关键词: 新能源汽车;永磁同步电机;模型预测控制;实时性;鲁棒性
+Summary-摘要: 作为解决全球能源和环境问题在交通领域中的重要举措,汽车电动化进程的推动使得电机技术的地位愈发重要。永磁同步电机(Permanent Magnet Synchronous Motor,PMSM)凭借自身高效低损耗的优势在车用电机领域得到广泛应用。高性能的电机控制策略是保证电机系统稳定运行的基础。模型预测控制(Model Predictive Control,MPC)通过对未来控制结果的预测,易于实现最优控制,系统性能良好,但也存在运行计算量大和对系统参数依赖性高的问题,本文从实时性和鲁棒性两个角度对车用永磁同步电机模型预测控制展开研究,主要研究工作如下:建立模型预测电流控制(Model Predictive Current Control,MPCC)及定子和转子坐标系下的模型预测转矩控制(Model Predictive Torque Control,MPTC)的数学模型,仿真验证了三种MPC控制策略的可行性。分析零电压矢量对控制结果的保持作用,通过实验法设置转矩误差阈值,提出一种适用于MPTC简化控制策略,使系统在误差阈值内直接输出零电压矢量。添加定子磁链位置约束以及磁链误差约束,根据定子磁链处于不同情况下的电压矢量利用率精简控制集,再次提出两种新的简化策略,减少系统在无法直接输出零电压矢量情况下的穷举计算次数。通过仿真分析和硬件平台测试验证了三种简化策略的可行性以及实时性优势。引入无模型控制思想,在单输入单输出的MPCC系统中建立超局部模型,提出不依赖电机参数的无模型预测电流控制(Model-free Predictive Current Control,MFPCC)。确定合理窗口周期长度完成对未知部分的在线计算。通过滑模观测器的设计,实现未知部分F在线观测。仿真验证了上述策略的有效性,无模型控制实现了参数变化情况下系统的鲁棒性优化。在硬件平台验证未知部分额外的计算量对系统整体的实时性能影响不大。将MFPCC与多步控制融合,提出一阶系统的两步无模型预测控制。推导建立二阶无模型系统的超局部模型及未知部分的求解公式,利用离散时产生的三个控制周期下的电流控制量建立二阶系统的两步控制策略。选择合适的第二步窗口长度完成对两步F值的数值估计,设计两步滑模观测完成对F值的在线观测。仿真分析所提策略的可行性,验证了多步控制对MFPCC系统控制性能的优化以及无模型控制对多步系统参数鲁棒性的提升。硬件平台结果表明超局部模型对多步控制预测模型的简化优化了系统的实时性。
+
+SrcDatabase-来源库: 期刊
+Title-题名: 基于模型预测控制和机会约束的主动配电网实时调度优化策略
+Author-作者:杨宗铭;朱红杰;陈冠宇;毛建维;郑庆春;杨铭
+Organ-单位: 云南电网有限责任公司保山供电局;南京工程学院电力工程学院;南京南瑞继保电气有限公司;东南大学电气工程学院
+Source-文献来源: 电力需求侧管理
+Keyword-关键词: 主动配电网;实时调度;优化调度;模型预测控制;机会约束
+Summary-摘要: 合理利用分布式电源和可调负荷的灵活调节特性是实现主动配电网主动控制的关键，但其中分布式电源的随机性和波动性影响了实时调度的可靠性。为实现主动配电网的实时优化调度，提出基于模型预测控制和机会约束的主动配电网实时调度优化策略，将模型预测控制与机会约束相结合，降低了分布式能源随机性和波动性对小时间尺度调度的影响。首先，对主动配电网的小时间尺度调度体系进行了分析；在此基础上，以最优经济调度为优化目标，通过模型预测控制将系统未来状态感知与实时状态反馈相结合，对实时调度进行滚动优化，尽可能减小配电网不确定性影响；在滚动优化中采用机会约束进一步降低分布式能源和可调负荷随机波动的影响；实现了主动配电网实时调度的高可靠性和高经济性。最后通过全面的运行实例验证了所提策略的适用性和优越性。
+
+SrcDatabase-来源库: 硕士
+Title-题名: 基于模型预测控制的城市快速公交实时优化调整策略
+Author-作者:马倩乾
+Organ-单位: 北京交通大学
+Source-文献来源: 北京交通大学
+Keyword-关键词: 快速公交;串车;鲁棒优化;模型预测控制
+Summary-摘要: 随着“碳达峰”和“碳中和”战略目标的提出,大力发展城市公共交通成为促进城市道路交通运输低碳绿色转型的关键,国家“十四五”规划纲要提出要将“公交优先”上升为国家战略,让“绿色出行”成为社会共识。然而,目前城市公交存在“串车”现象频发、线路车头时距不均衡、运行延误严重等各种问题,导致公交运行效率和乘客满意度下降,吸引力相较于其它运输方式较低。特别是城市快速公交作为一种运量大、速度快的新型公共交通方式,运行服务水平仍然有很大的提升空间。因此,研究城市快速公交实时优化调整具有重要的理论意义和实际应用价值。本文主要基于模型预测控制方法,分别研究确定环境和不确定环境下快速公交实时优化调整策略,以均衡公交线路车头时距,减少乘客等待时间。本文的研究内容主要包括以下三部分:第一,研究了基于确定客流需求的快速公交实时优化调整问题。以最小化车头时距偏差、时刻表偏差及控制量为优化目标,考虑到发时间、乘客流、驻站时间等约束,以驻站时间和运行时间控制量为决策变量,构建了非线性动态规划模型,并通过线性化方法得到易于求解的混合整数二次规划模型,最后设计了基于模型预测控制的公交实时优化调整算法,根据实时反馈信息在线求解优化问题,以实现快速公交优化调整的动态性和实时性要求。第二,研究了不确定环境下快速公交实时优化调整问题。通过利用具有已知概率的情景集描述乘客到达率和运行时间扰动的不确定性,以最小化所有情景下的车头时距偏差、时刻表偏差及控制量为优化目标,考虑各个情景下的时刻表约束、乘客流约束、控制约束和其它附加约束,构建了基于情景型客流需求和运行时间扰动的快速公交鲁棒优化调整模型,并设计了基于模型预测控制的公交实时鲁棒优化调整算法,生成对不确定扰动敏感程度较低且对所有情景都较优的优化调整策略,同时该算法可以将复杂的优化调整问题简单化,一定程度上保证公交优化调整的实时性。第三,以北京快速公交3号线为仿真算例,对所提出的优化调整模型和实时算法的有效性进行了验证。首先对确定环境下的优化调整策略进行了仿真,通过与不进行调整、基于时刻表的调整策略对比表明,基于模型预测控制的公交实时优化调整策略可以分别降低时刻表延误和车头时距延误60%和83%。然后同样用北京快速公交3号线的实际案例对情景鲁棒优化调整策略进行验证,结果表明,各情景在鲁棒调整策略下的时刻表偏差和车头时距偏差与由确定模型得到的最优值相比,相对误差较小,这表明鲁棒优化调整策略对所有情景集都具有较好的调整效果,同时能有效降低对不确定参数的敏感程度。最后通过改变情景规模的大小发现在规模较大时求解时间仍不足10s,验证了模型预测控制算法在情景鲁棒优化下的实时性。图32幅,表7个,参考文献82篇。
+
+SrcDatabase-来源库: 硕士
+Title-题名: 融合模型预测控制与改进启发式算法的城轨列车节能运行实时调整优化方法研究
+Author-作者:沈广辉
+Organ-单位: 北京交通大学
+Source-文献来源: 北京交通大学
+Keyword-关键词: 城市轨道交通;实时调整;速度曲线;列车能耗;模型预测控制;改进启发式算法
+Summary-摘要: 随着我国城市人口不断增加,城市公共交通供需不平衡及交通拥挤等一系列问题正日渐突出,严重制约社会的发展。城市轨道交通以运量大、发车频率高、发车间隔小、准时性及节能等优势,正逐步成为缓解城市公共交通压力的首要交通方式。然而,在受到如大客流等不确定因素干扰时,列车运行易发生延误,若延误得不到及时调整恢复,造成延误的进一步传播,不仅影响到系统的正常运营,也导致能耗的增加。因此,研究考虑动态客流的城轨列车节能运行实时调整优化方法具有重要的实际意义。本文在现有国内外相关研究的基础上,综合考虑列车运行与客流变化之间的耦合关系,以及运行速度曲线对能耗的影响,分别建立了基于速度曲线选择的列车节能运行实时调整优化模型、列车运行调整与速度曲线实时计算的一体化模型,并设计了相应的求解算法,及时缓解了列车延误,提高了运营服务效率,保证了在弥补延误情况下较低的列车运行能耗。本文主要的研究内容如下:(1)考虑动态客流变化与列车运行之间的耦合关系,建立了基于速度曲线选择的列车节能运行调整优化模型。根据列车延误情况,实时调整列车停站时间与实时从预先存储的速度曲线中选择一个最佳速度曲线运行。以最小化发车时刻偏差、发车间隔偏差以及列车运行能耗为目标函数,以发车时刻、停站时间、车载乘客量、站台等待乘客量、上下车乘客量等为约束条件建立了非线性优化模型。进一步,为满足实时调整要求,设计了一种融合模型预测控制(MPC)与自适应遗传算法的求解方法进行求解。(2)为提高运营效率、服务质量及能量利用率,在上述研究的基础上,建立了列车运行调整与速度曲线实时计算的一体化模型。在考虑客流动态变化的基础上,对列车停站时间、运行速度曲线的实时计算及考虑制动再生能的总能耗的联合动态调整优化,达到一体化调整的目的。以最小化发车时刻偏差、发车间隔偏差及考虑制动再生能的列车实际能耗为目标函数,并以列车发车时刻、实际停站时间、实际运行时间、到发间隔、运行速度、车站等待乘客量、车载乘客量等为约束条件建立了非线性优化模型。进一步,为满足实时一体化调整要求,设计了一种融合MPC与自适应禁忌搜索算法的求解方法进行求解。(3)以北京市轨道交通昌平线运营数据,验证了基于速度曲线选择的列车节能运行调整优化模型的合理性与算法的有效性。结果表明,所提出的模型与算法实时有效地降低了发车时刻偏差,提高了车头时距的均衡性,同时保证了在弥补延误情况下较低的列车能耗,从而达到节能的目的。以城市轨道交通亦庄线运营数据,验证了列车运行调整与速度曲线实时计算的一体化模型与算法的有效性。结果表明,所提出的模型与算法实现了列车延误的及时与明显恢复,提高了发车间隔的规律性,同时保证列车运营服务效率和能耗之间的平衡。图47幅,表18个,参考文献73篇。
+
+SrcDatabase-来源库: 硕士
+Title-题名: 基于多目标预测控制的水泥分解炉实时优化研究
+Author-作者:戚子豪
+Organ-单位: 东南大学
+Source-文献来源: 东南大学
+Keyword-关键词: 水泥分解炉;混合模型;动态特性;多目标优化;预测控制
+Summary-摘要: 水泥分解炉以气流悬浮方式完成燃料燃烧与生料碳酸钙预分解,是水泥生产线的核心设备,其高效低污染调控是确保水泥质量及生产过程经济性和环保性的关键。然而,水泥分解炉内发生的是复杂的气固流动与化学反应耦合过程,目前喷煤量、喷氨量等操作参数的控制主要依赖经验,存在生产能耗高、污染排放大等问题。为了实现水泥分解炉的高效低污染调控,本文构建了面向优化控制的分解炉数学模型,研究生产过程多目标优化策略以及实时控制方法,为实现分解炉的运行优化提供有效的解决方案。首先,建立了分解炉一维数学模型并开展系统稳态特性与动态特性研究。本文以某5500 t/d级水泥生产线分解炉为研究对象,在分析分解炉生产流程与工艺特性的基础上,沿分解炉轴向烟气流动方向建立了描述炉内气固流动、煤粉燃烧、生料分解、氮氧化物脱除的小室模型。同时在建模过程中引入混合建模的思想,将复杂的气固流动公式用神经网络方法近似拟合,通过求解各小室内的气固质量平衡与热平衡方程,得到炉内状态参数的变化率。模型计算结果与现场运行数据的相对误差基本在10%以内。基于所建立的分解炉数学模型,分别讨论了炉内参数的一维分布特性、各参数间的稳态关系以及关键变量的敏感性,并借助该模型依次研究了生料下料量、喷煤量、喷氨量、高温风机转速阶跃扰动时系统的动态响应特性。在上述建模与运行特性研究的基础上,构建分解炉多目标优化框架与求解策略。通过对运行过程产品质量、污染物排放、经济性、安全性的分析,量化各性能指标,设计优化目标函数和约束条件,构建最小化设定值跟踪偏差以及最小化分解炉生产过程经济成本的多目标优化问题;采用多目标进化算法求解优化问题,并基于本文所建立的分解炉数学模型对生产过程的关键变量进行拟合从而减少大规模种群寻优的计算时间,快速获得当前工况下的最优运行参数,解决分解炉生产过程中各变量间难以协调优化的问题,为生产调控提供指导。该算法在炉内温度或排放浓度指标偏离设定值时能够快速调节喷煤量与喷氨量,使被控指标恢复至设定范围内;当生产指标处于运行范围内时将减小系统保留的温度或脱硝裕量,提高运行经济性。基于上述数学模型与优化框架,引入预测控制方法,实现分解炉多目标实时优化控制。将本文中所建立的分解炉数学模型在稳态点线性化作为预测模型,设计带有滞后因子的多模型切换策略。将分解炉运行过程的质量指标、安全性指标、经济性指标等引入预测控制框架,计算温度与NOx浓度等被控量的变化趋势,构造控制过程中的喷煤量与喷氨量增量约束、幅值约束,以前文所述多目标优化问题的理想点作为追踪目标,建立多目标预测控制器。通过多个仿真案例分析发现,与常规预测控制器相比,该方法可以实现喷煤量与喷氨量的协调优化控制,有效克服复杂系统非线性、时滞性带来的控制困难,在设定值变化、烟气与生料外部扰动以及模型失配等条件下仍能保持控制系统的稳定性与经济性。最终,基于App Designer平台开发分解炉优化燃烧调控软件,结合前文研究成果,在软件框架中嵌入参数预测、多目标优化以及实时控制三项功能模块,设计可视化交互界面,实现研究内容的工程化应用。
+
+SrcDatabase-来源库: 博士
+Title-题名: 基于高斯过程回归的非参数化辨识及模型预测控制方法研究
+Author-作者:陈铭豪
+Organ-单位: 浙江大学
+Source-文献来源: 浙江大学
+Keyword-关键词: 模型预测控制;系统辨识;非参数化辨识;高斯过程回归;模型继承;核函数设计;迁移学习;模型失配;鲁棒优化
+Summary-摘要: 模型预测控制(Model Predictive Control,MPC)以其良好的控制性能,有效地处理过程约束的能力,经济效益可观等优点,在复杂的工业过程控制中取得了巨大的成功,其相关研究也受到越来越多的关注。模型预测控制算法通常包括三个关键环节:预测模型、滚动优化、反馈校正。预测模型的辨识是工业预测控制系统设计中耗时最长且成本最高的环节,直接影响模型预测控制算法的实施效率和经济性。一方面,研究有效的系统辨识算法可以直接提高模型精度和降低建模成本。另一方面,克服由建模误差或过程动态变化等因素导致的模型失配现象,考虑模型不确定性以及研究有效的模型自适应更新策略,能够大幅度提高模型预测控制算法对于复杂多变工业过程的适应性。本文以模型预测控制为背景,围绕着建模、控制、优化问题展开了一系列研究。主要的研究成果包括如下几个方面:1.针对批次过程系统辨识忽略动态特性沿时间轴的相关性会造成参数估计波动大的问题,本文提出了一种基于多步继承高斯过程回归的非参数化辨识算法。在高斯过程回归框架下,每一时刻的脉冲响应由两部分组成:一部分是利用了先前时刻模型信息的继承部分,并假设继承权重具有高斯先验;另一部分是残差脉冲响应,用于补偿真实过程模型和模型继承部分之间的偏差,且假设为零均值高斯过程。根据经验贝叶斯法,本文推导了继承权重和残差脉冲响应的联合估计,其中高斯过程涉及的超参数通过极大化边际似然来确定。由于模型继承考虑了批次过程相邻时间点动态特性的相关性,该方法能够有效减小建模误差。2.针对现有非参数化辨识中的核函数为一维核函数,批次过程的二维数据信息无法被充分利用的问题,本文从核函数设计的角度出发,提出了一种基于二维核函数高斯过程回归的非参数化辨识算法。在高斯过程回归框架下,时变脉冲响应的估计可以看作是高斯过程的一种实现,其中核函数的设计表征了系统的先验信息。根据批次过程时变脉冲响应模型的二维相关特性,本文基于坐标分解法提出了一种适用于批次过程系统辨识的二维调幅局部平稳(AM-2DLS)核函数,该核函数具有乘性和加性两种组合方式。此外,本文对二维核函数的性质进行了分析。由于该方法充分利用了批次过程的二维数据信息,有效提高了批次过程时变脉冲响应模型的辨识精度。3.针对已有辨识算法对于历史辨识过的模型利用率低的问题,本文提出了一种基于高斯过程回归迁移学习的非参数化辨识算法。在连续脉冲响应框架下,该方法假设目标过程模型由两部分组成,一部分是由源过程模型迁移到目标过程模型中的迁移部分,另一部分是残差模型用于表征目标过程模型和迁移部分之间的偏差。根据脉冲响应函数的不同响应特性,本文提出了线性和非线性的迁移函数使得源过程模型经过迁移函数变换后能够尽可能表示目标过程模型。进一步地,本文将目标过程连续脉冲响应的估计问题看作是连续高斯过程的贝叶斯估计问题,从而推导了基于高斯过程回归迁移学习的非参数化辨识算法。由于该方法能够在辨识目标过程的模型时充分利用源过程的模型信息,因此仅需要少量目标过程的实验数据就能够取得较好的辨识精度,有效降低建模成本。4.针对模型失配导致MPC闭环回路控制性能下降的问题,本文提出了一种基于递推高斯过程回归的学习预测控制算法。该方法以递推的方式更新MPC控制器预测误差关于控制作用的失配脉冲响应模型,从而对MPC控制器对未来输出的预测进行补偿,提高了MPC控制器的模型预测精度。在上述研究的基础上,考虑模型不确定性的存在,该算法在MPC优化问题中显式考虑了模型不确定性对未来输出预测的影响,将过程的输出约束建模为机会约束,并基于高斯过程回归模型将机会约束转化为确定性凸约束。仿真案例验证了该方法的有效性,通过失配脉冲响应模型的学习更新,能够在线改善闭环控制性能。5.针对模型失配导致MPC稳态目标计算结果不准确的问题,本文提出了一种基于闭环不确定性的鲁棒稳态目标计算方法。该方法同时考虑了模型不确定性及闭环控制器对系统稳态的影响,然而得到的具有连续不确定性的双层优化问题是难以实时求解的。为了得到用于最终求解的优化问题,本文首先提出“控制器切换”的思想,将稳态MPC控制律转化为由闭环控制律和开环输入组合而成,从而将双层优化问题转换为单层优化问题;进一步通过精确线性化将含有双线性项的非凸问题转化为凸问题;最后基于椭圆不确定性假设将半无穷规划问题转化为混合整数二次锥规划问题。该方法既能够避免由模型失配导致的稳态目标值震荡的问题,也能够避免由于忽略控制器对稳态的影响导致的稳态目标值过于保守的问题。最后,归纳总结全文的工作,并指出若干有待于今后进一步研究的内容。
+
+SrcDatabase-来源库: 期刊
+Title-题名: 基于模型预测控制的主动配电网多场景变时间尺度优化调度
+Author-作者:刘自发;张婷;王岩
+Organ-单位: 华北电力大学电气与电子工程学院;华北电力大学(保定)电力工程系
+Source-文献来源: 电力自动化设备
+Keyword-关键词: 主动配电网;变时间尺度;源荷相关性;Copula模型;模型预测控制;优化调度
+Summary-摘要: 针对源荷预测误差对主动配电网调度影响较大的问题，充分考虑源荷数据相关性，提出基于模型预测控制（MPC）的主动配电网多场景变时间尺度优化调度策略。在日前、日内优化阶段，采用藤Copula模型描述源荷相关性，结合场景生成与削减技术形成源荷出力场景，以多场景下配电网期望运行成本最小为目标建立优化模型，求解配电网中机组、储能、无功补偿装置等可调资源运行状态及出力情况；在实时优化阶段，采用MPC思想，以可调资源调整量最小为目标，提出场景相似度的概念以及自适应追踪最优轨迹的方法，得到基于滚动优化和反馈以及最优参考轨迹的实时调度。采用修改后的IEEE 33节点系统验证了所提优化策略的可行性。
+
+SrcDatabase-来源库: 期刊
+Title-题名: 基于智能软开关的主动配电网电压模型预测控制优化方法
+Author-作者:高聪哲;黄文焘;余墨多;陈旸;邰能灵
+Organ-单位: 电力传输与功率变换控制教育部重点实验室(上海交通大学);国网上海市电力公司松江供电公司
+Source-文献来源: 电工技术学报
+Keyword-关键词: 模型预测控制;电压优化;主动配电网;灵敏度;智能软开关
+Summary-摘要: 配电网分布式电源出力与负荷功率具有强波动性与随机性，使得电压越限与异常问题频发且越发严重。该文提出一种基于智能软开关的主动配电网电压模型预测控制优化方法，仅利用智能软开关两端节点电气信息，以长时间尺度优化结果为基础，建立基于灵敏度的配电网电压与线损预测模型，以节点电压偏差与配电网损耗最小为目标，通过滚动优化超前调控节点间的交换功率，并根据控制误差对预测模型进行反馈校正，完成对配电网电压的快速、实时优化控制，有效解决了已有电压调控方式依赖全局信息且难以应对节点功率快速波动的难题。分别以IEEE33节点与实际配电网为算例，验证了该文所提方法的有效性、可靠性和经济性，可为构建新能源为主体的新型配电网提供技术参考。
+
+SrcDatabase-来源库: 期刊
+Title-题名: 基于模型预测控制的虚拟电厂储能系统能量协同优化调控方法
+Author-作者:汪洋叶;赵力航;常伟光;杨强;杨敏
+Organ-单位: 浙江省太阳能利用及节能技术重点实验室;浙江浙能技术研究院有限公司;浙江大学电气工程学院
+Source-文献来源: 智慧电力
+Keyword-关键词: 虚拟电厂;模型预测控制;粒子群优化算法;储能系统
+Summary-摘要: 随着可再生能源在传统电网中的渗透率逐渐增高,虚拟电厂的概念被提出,旨在有效整合并利用可再生能源。提出了一种基于模型预测控制的虚拟电厂储能系统能量协同优化调控方法,使用长短期记忆神经网络来获取未来一天内虚拟电厂管辖范围内的负荷、风电、光伏出力预测值。在模型预测控制的框架下,以虚拟电厂运行调度的成本最小化为目标,使用一种改进的粒子群寻优算法求解优化过程。仿真结果表明所提方法的有效性。
+
+SrcDatabase-来源库: 期刊
+Title-题名: 大数据分析技术的海量网络流量建模与预测分析
+Author-作者:郭拴岐
+Organ-单位: 陕西警官职业学院实验实训中心
+Source-文献来源: 信息技术
+Keyword-关键词: 大数据分析技术;海量网络流量;建模预测;经验模态分解;固有模式函数
+Summary-摘要: 为了有效避免网络拥堵,文中提出基于大数据分析技术的海量网络流量建模与预测分析方法,准确预测网络流量数据。首先利用经验模态分解处理网络流量数据,获取模式函数分量,分析网络流量的短相关性,然后通过确定数据平稳性、计算平稳时间网络流量序列的自相关系数和偏自相关系数,建立网络流量的预测模型,最后进行了网络流量的仿真实验,实验结果表明,该方法可以描述网络流量的变化特点,获得高精度的网络流量预测结果,预测结果均方误差低于5%。
+
+SrcDatabase-来源库: 硕士
+Title-题名: 模型预测控制在轨迹规划和车辆控制中的应用研究
+Author-作者:李威
+Organ-单位: 浙江大学
+Source-文献来源: 浙江大学
+Keyword-关键词: 模型预测控制;实时优化;车道保持;速度跟踪;轨迹规划
+Summary-摘要: 自动驾驶的研究已经越来越深入,现在的自动驾驶落地一般采用层级式解决方案。这意味着将自动驾驶转化为一个个小的子系统,而轨迹规划和跟踪控制两个子系统是在其中占有十分重要的地位,对其进行研究具有极其重要的意义。本文围绕轨迹规划和运动控制,从车辆横向动力学模型和纵向逆模型构建出发,基于三种预测控制方法,在车辆车道保持、快速转弯和最小单圈时间等方面展开。主要研究内容如下:1.首先,为了预测控制的需要,从横纵向分开控制的策略出发,构建了车辆的横向偏差模型和纵向逆模型。其中,车辆横向偏差模型采用自行车两轮模型,在车辆运动几何的关系条件下,先构建出车辆的运动学模型,然后通过轮胎侧向力和侧偏角在小角度的近似关系,构建出车辆的横向偏差动力学模型。车辆纵向逆模型的构建是为了之后的纵向速度跟踪做铺垫,首先根据期望加速度的正负逻辑判断使用驱动还是制动模式,然后分别通过力矩关系,传动关系等内容,将两种模式的车辆纵向控制逆模型构建出来。2.为了实现车辆车道保持,设计了 一种基于预测函数控制的前轮车辆车道保持方法。此方法通过车辆的横向偏差模型构建预测的一致点,并通过合理的衰减系数构建了整个预测函数控制方法的求解过程,然后通过Matlab/Simulink与CarSim联合仿真进行实验验证。为了实现快速转弯,设计了一种基于曲线插值和广义预测控制的快速转弯方法。此方法首先通过一个数值优化问题求得期望轨迹的离散点,然后通过曲线插值方法拟合得到期望轨迹,之后通过广义预测控制的轨迹跟踪器跟踪期望轨迹实现快速通过弯道的预期效果。为了实现纵向速度跟踪,设计了一种预测函数控制和逆模型结合的速度跟踪控制器。此方法在构建纵向逆模型之前加入一个预测函数控制器,弥补了纵向逆模型的构建不准的偏差,进行了实验验证速度跟踪效果。3.为了实现最短单圈时间,提出了 一种基于模型预测的最短单圈轨迹规划方法和基于双模模型预测控制的轨迹跟踪器的方法。首先通过车辆运动学模型构建线上模型预测轨迹规划,同时考虑计算时间,对线上规划的优化问题求解做出了一些权衡性的改进,这些改进包括了数值求解时的初始猜测,预测步长的选择以及构建优化问题方法的选择,然后通过双模模型预测控制的对参考轨迹进行稳定跟踪,最后进行仿真测试实验。
+
+SrcDatabase-来源库: 期刊
+Title-题名: 大数据分析技术下的通信网络安全风险预测及防范
+Author-作者:赵炜伟
+Organ-单位: 武警内蒙古总队参谋部
+Source-文献来源: 数字通信世界
+Keyword-关键词: 大数据分析技术;通信网络安全;预测;防范
+Summary-摘要: 大数据时代的到来给社会带来了很大的改变,但是同时也给通信网络安全带来了一些隐患。由于大数据技术不断的发展成熟,会促使有的不法分子利用大数据破坏通信网络安全,给用户带来了损失。因此要将大数据分析技术充分运用到通信安全风险预测及防范当中去。
+
+SrcDatabase-来源库: 期刊
+Title-题名: 大数据分析技术的无线通信网络安全风险预测
+Author-作者:庄海燕
+Organ-单位: 铁道警察学院
+Source-文献来源: 微电子学与计算机
+Keyword-关键词: 无线通信;网络安全;风险预测;大数据分析
+Summary-摘要: 当前无线通信网络安全风险预测模型存在误差大,预测耗时长等缺陷,为了提高无线通信网络安全风险预测精度,加快无线通信网络安全风险预测速度,提出了基于大数据分析技术的无线通信网络安全风险预测模型.首先采集无线通信网络安全风险预测历史数据,然后采用大数据分析技术建立无线通信网络安全风险预测模型,最后进行时了无线通信网络安全风险预测仿真实验,结果表明,本文模型的无线通信网络安全风险预测精度高,预测误差远远小于其它无线通信网络安全风险预测模型,加快了无线通信网络安全风险预测速度.
+
+SrcDatabase-来源库: 期刊
+Title-题名: 大数据分析技术在网络领域中的研究综述
+Author-作者:冯贵兰;李正楠;周文刚
+Organ-单位: 中国民航飞行学院现代教育技术中心;中国民航飞行学院航空工程学院;中国民航飞行学院飞行技术学院
+Source-文献来源: 计算机科学
+Keyword-关键词: 大数据分析;网络优化;频谱管控;流量预测;网络安全
+Summary-摘要: 随着移动互联网、物联网、5G通信网等新兴技术的迅猛发展,数以亿计的网络接入点、联网设备以及网络应用产生的海量数据,给网络故障排查、网络安全保障等带来了极大的挑战,同时也为人们深度挖掘和充分利用网络大数据的巨大价值带来了机遇。大数据分析可以处理海量数据,并从中抽取有价值的潜在知识,帮助决策者发现隐藏的关系和模式,近年来引起了学术界和工业界的广泛关注。文中围绕大数据分析技术应用于网络领域的最新研究成果,首先阐述了网络大数据的概念、分类和数据分析方法;然后从无线网络、SDN网络、光纤网络和网络安全4个层面着重介绍了大数据分析技术在故障检测、流量监控、网络优化、流量预测、APT攻击检测、网络异常检测等网络领域中的解决方案,重点分析和归纳了这些解决方案中大数据分析技术的思路;接着回顾了大数据分析技术在工业界中应用的情况;在此基础上,给出了基于大数据分析的网络设计周期;最后总结了大数据分析技术在网络领域中面临的机遇和挑战,并指出下一步需要关注的研究方向。
+
