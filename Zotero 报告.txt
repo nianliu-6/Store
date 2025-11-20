@@ -1,0 +1,1783 @@
+  *
+
+
+        基于联合注意力机制和一维卷积神经网络-双向长短期记忆网络模型的流
+        量异常检测方法
+
+    条目类型 	期刊文章
+    作者 	尹梓诺
+    作者 	马海龙
+    作者 	胡涛
+    摘要 	针对流量数据集中类别不平衡限制了分类模型对少数类攻击流量的检测
+    性能这一问题，该文提出一种基于联合注意力机制和1维卷积神经网络-双向长
+    短期记忆网络(1DCNN-BiLSTM)模型的流量异常检测方法。首先在数据预处理过
+    程中利用BorderlineSMOTE方法对流量数据不平衡训练样本预处理，使得各类
+    流量数据均衡，有助于后续模型对各类数据的充分训练。然后设计联合注意力
+    机制和1DCNN-BiLSTM的模型对流量数据进行训练，提取流量数据的局部和长距
+    离序列特征并进行分类，通过注意力机制将对分类有用的特征按其重要性赋予
+    权值，提高对少数攻击类的检出率。实验结果表明，同几种现有方法相比，该
+    文方法对NSL-KDD和CICIDS2017数据集的检测准确率最高(可达93.17%和
+    98.65%)，对NSL-KDD数据集中的提权攻击(U2R)攻击流量的检出率至少提升
+    13.70%，证明了该文方法提升少数类攻击流量检出率的有效性。
+    日期 	2023
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址
+    https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2023&filename=DZYX202310030 <https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2023&filename=DZYX202310030>
+    访问时间 	2025/11/20 15:39:34
+    其他 	original-container-title: Journal of Electronics & Information
+    Technology foundation: 国家重点研发计划(2018YFB0804002)~~；
+    download: 967 album: 信息科技 CLC: TP393.06;TP183 CNKICite: 49
+    dbcode: CJFQ dbname: CJFDLAST2023 filename: DZYX202310030
+    publicationTag: 北大核心, CAS, JST, EI, CSCD, WJCI, 卓越期刊 CIF:
+    3.124 AIF: 1.769
+    卷次 	45
+    页码 	3719-3728
+    刊名 	电子与信息学报
+    期号 	10
+    ISSN 	1009-5896
+    添加日期 	2025/11/20 15:39:35
+    修改日期 	2025/11/20 15:39:35
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        深度神经网络学习率策略研究进展
+
+    条目类型 	期刊文章
+    作者 	刘云飞
+    作者 	张俊然
+    摘要 	学习率(learning rate, LR)是深度神经网络(deep neural networks,
+    DNNs)能够进行有效训练的重要超参数.然而,学习率的调整在DNNs训练过程中
+    仍存在诸多困难与挑战,即使以恒定的学习率选择为目标,为训练DNNs选择一个
+    最优的恒定初始学习率也非易事.动态学习率涉及到训练过程的不同阶段,需对
+    学习率进行多步调整以达到高精确度和快速收敛的目的:调整过程中学习率过
+    小可能会导致模型收敛缓慢或陷入局部最优值;而学习率过大则会阻碍收敛,造
+    成震荡发散.对此,综述了近年来基于深度学习算法的学习率研究进展,并对分
+    段衰减学习率、平滑衰减学习率、循环学习率、具有热启动的学习率4种类型
+    的学习率簇在几个常见数据集上的性能表现进行测试分析和对比研究,包括收
+    敛速度、鲁棒性和均值方差等.最后总结全文,并对该领域仍存在的问题以及未
+    来的研究趋势进行展望.
+    日期 	2023
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.13195/j.kzyjc.2022.0147
+    <https://doi.org/10.13195/j.kzyjc.2022.0147>
+    访问时间 	2025/11/20 15:39:35
+    其他 	original-container-title: Control and Decision foundation: 智
+    能电网四川省重点实验室应急重点项目(020IEPG-KL-20YJ01)； 德阳科技(揭
+    榜)项目(2021JBJZ007)； 四川大学华西医院1-3-5优秀学科项目
+    (ZYJC21041)； 四川省科技计划项目(2022YFS0178)； download: 1013
+    album: 信息科技 CLC: TP183 CNKICite: 47 dbcode: CJFQ dbname:
+    CJFDLAST2023 filename: KZYC202309031 publicationTag: 北大核心, JST,
+    Pж(AJ), EI, CSCD, WJCI, 卓越期刊 CIF: 6.143 AIF: 3.012
+    卷次 	38
+    页码 	2444-2460
+    刊名 	控制与决策
+    DOI 	10.13195/j.kzyjc.2022.0147
+    <http://doi.org/10.13195/j.kzyjc.2022.0147>
+    期号 	9
+    ISSN 	1001-0920
+    添加日期 	2025/11/20 15:39:35
+    修改日期 	2025/11/20 15:39:35
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于图卷积神经网络与K-means聚类的居民用户集群短期负荷预测
+
+    条目类型 	期刊文章
+    作者 	董雷
+    作者 	陈振平
+    作者 	韩富佳
+    作者 	王晓辉
+    作者 	蒲天骄
+    摘要 	随着智能电表等高级量测装置在用户侧的广泛部署与使用，海量多源异
+    构的居民用户数据得以采集与存储，为用户级负荷预测提供良好的数据基础。
+    精准的居民用户集群负荷预测是促进智能配电网需求侧管理、辅助电网公司实
+    现削峰填谷的重要基础。然而，现有的用户级负荷预测方法大多利用历史负荷
+    序列的时间相关性构建数据驱动模型，却忽视相邻用户用电行为之间存在的潜
+    在空间相关性。因此，提出一种基于K-means聚类和自适应时空同步图卷积神
+    经网络的居民用户集群负荷预测方法。首先，采用K-means聚类将居民用户集
+    群按照用电行为相似性划分成不同组；然后，基于居民用户集群的分组数量、
+    各组居民用户的历史负荷数据以及各组居民用户负荷序列之间的相关性，构建
+    面向居民用户集群负荷预测的时空图数据；最后，使用自适应时空同步图卷积
+    神经网络实现居民用户集群短期负荷预测。文章通过真实的爱尔兰居民用户负
+    荷公开数据集测试并验证所提方法的准确性和有效性，实验结果表明，相较于
+    各个基准预测方法，所提方法能够充分挖掘并利用不同居民用户用电负荷之间
+    的时空相关性，进而提高居民用户集群负荷预测精度。
+    日期 	2023
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.13335/j.1000-3673.pst.2022.1407
+    <https://doi.org/10.13335/j.1000-3673.pst.2022.1407>
+    访问时间 	2025/11/20 15:39:15
+    其他 	original-container-title: Power System Technology foundation:
+    国家电网公司科技项目(5400-202112507A-0-5-ZN)~~； download: 3175
+    album: 工程科技Ⅱ辑;信息科技 CLC: TM715;TP183 CNKICite: 78 dbcode:
+    CJFQ dbname: CJFDLAST2023 filename: DWJS202310037 publicationTag: 北
+    大核心, JST, EI, CSCD, WJCI, 卓越期刊 CIF: 9.461 AIF: 6.019
+    卷次 	47
+    页码 	4291-4301
+    刊名 	电网技术
+    DOI 	10.13335/j.1000-3673.pst.2022.1407
+    <http://doi.org/10.13335/j.1000-3673.pst.2022.1407>
+    期号 	10
+    ISSN 	1000-3673
+    添加日期 	2025/11/20 15:39:16
+    修改日期 	2025/11/20 15:39:16
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于数据增强型一维改进卷积神经网络的变压器故障诊断方法
+
+    条目类型 	期刊文章
+    作者 	李平
+    作者 	胡根铭
+    摘要 	为提升基于深度学习的变压器故障诊断精度，提出了一种数据增强型一
+    维改进卷积神经网络的变压器故障诊断方法。首先，针对传统变分自编码器数
+    据生成过程中的盲目性弊端，提出改进变分自编码器(improved variational
+    autoencoder,IVAE)优化变压器溶解气体数据生成策略。其次，为使深层网络
+    结构能适应变压器溶解气体数据，构建一维改进卷积神经网络(one-
+    dimensional improved convolutional neural network,1D-ICNN)作为故障诊
+    断分类器。最后，通过算例仿真验证了所提方法的可行性和适应性。结果表明
+    IVAE能有效解决变压器故障数据样本少、诊断准确率低的局限；数据增强型
+    1D-ICNN在分类精准度上表现优异，准确度提升了13.49%，研究结果可为变压
+    器故障的准确诊断提供新思路。
+    日期 	2023
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.13335/j.1000-3673.pst.2022.1902
+    <https://doi.org/10.13335/j.1000-3673.pst.2022.1902>
+    访问时间 	2025/11/20 15:39:16
+    其他 	original-container-title: Power System Technology foundation:
+    安徽省自然科学基金项目(2108085ME180)； 安徽高校协同创新项目(GXXT-
+    2021-024)~~； download: 1630 album: 工程科技Ⅱ辑;信息科技 CLC:
+    TP183;TM41 CNKICite: 71 dbcode: CJFQ dbname: CJFDLAST2023 filename:
+    DWJS202307035 publicationTag: 北大核心, JST, EI, CSCD, WJCI, 卓越期
+    刊 CIF: 9.461 AIF: 6.019
+    卷次 	47
+    页码 	2957-2967
+    刊名 	电网技术
+    DOI 	10.13335/j.1000-3673.pst.2022.1902
+    <http://doi.org/10.13335/j.1000-3673.pst.2022.1902>
+    期号 	7
+    ISSN 	1000-3673
+    添加日期 	2025/11/20 15:39:16
+    修改日期 	2025/11/20 15:39:16
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        光学神经网络智能处理：技术演变与未来展望
+
+    条目类型 	期刊文章
+    作者 	李俊燊
+    作者 	孟祥彦
+    作者 	石暖暖
+    作者 	李伟
+    作者 	祝宁华
+    作者 	李明
+    摘要 	卷积神经网络（CNN）以其卓越的特征提取能力，在人脸识别、图像分
+    类、机器视觉、医学成像以及航空航天等领域展现出广泛的应用前景。然而，
+    传统电学智能处理芯片受摩尔定律的制约，难以满足CNN算力需求的持续增
+    长。光波以其超大宽带和超低损耗等特性，以光学或电学高维调控结构为基本
+    单元，通过光的受控传播实现计算，是支撑下一代人工智能高算力需求的颠覆
+    性技术。通过综述光学卷积神经网络的研究进展和技术突破，总结其发展的整
+    体趋势，探讨未来需要解决的技术问题，并对光学卷积神经网络的应用前景进
+    行展望。
+    日期 	2024
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址
+    https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2024&filename=HKXB202420004 <https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2024&filename=HKXB202420004>
+    访问时间 	2025/11/20 15:38:26
+    其他 	original-container-title: Acta Aeronautica et Astronautica
+    Sinica foundation: 中国科学院青年创新促进会（2022111）； 国家自然科
+    学基金（62235011,62075212,61925505）~~； download: 572 album: 工程科
+    技Ⅱ辑;信息科技 CLC: TP183 CNKICite: 4 dbcode: CJFQ dbname:
+    CJFDLAST2024 filename: HKXB202420004 publicationTag: 北大核心, CAS,
+    JST, Pж(AJ), EI, CSCD, WJCI, 卓越期刊 CIF: 2.829 AIF: 2.037
+    卷次 	45
+    页码 	67-89
+    刊名 	航空学报
+    期号 	20
+    ISSN 	1000-6893
+    添加日期 	2025/11/20 15:38:26
+    修改日期 	2025/11/20 15:38:26
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于可拓展自注意力时空图卷积神经网络的用户轨迹识别模型
+
+    条目类型 	期刊文章
+    作者 	雷天亮
+    作者 	吉立新
+    作者 	王庚润
+    作者 	刘树新
+    作者 	巫岚
+    摘要 	用户轨迹识别作为一项重要的时空数据挖掘任务，广泛应用于基于位置
+    的个性化服务推荐、行程规划、犯罪行为检测和目标跟踪等领域，但依然面临
+    预测精度不高的问题，主要原因是轨迹数据低采样且稀疏、轨迹类别数量巨大
+    等.针对上述问题提出了基于可拓展自注意力时空图卷积神经网络的用户轨迹
+    识别模型（Expandable Self-Attention Spatio-Temporal Graph
+    Convolutional Neural Networks,ESAST-GCNN），该模型采用时空图卷积神经
+    网络方式，深度挖掘时序特征与空间特征关系，并进行预测与拓展，结合自注
+    意力机制获取用户轨迹特征向量内部相关性，最终根据该特征向量进行用户轨
+    迹身份识别.在两个真实数据集上进行测试后发现，ESAST-GCNN相较于TULER-
+    GRU(TUL via Embedding and RNN)在Geolife与Gowalla中准确率分别提高了
+    13.95%、10.63%，实验结果表明ESAST-GCNN优于其他模型，识别效果更好，适
+    用范围更广.
+    日期 	2024
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址
+    https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2025&filename=DZXU202411008 <https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2025&filename=DZXU202411008>
+    访问时间 	2025/11/20 15:38:03
+    其他 	original-container-title: Acta Electronica Sinica foundation:
+    河南省重大科技专项项目（No.221100210700）~~； download: 217 album:
+    信息科技 CLC: TP183 CNKICite: 1 dbcode: CJFQ dbname: CJFDLAST2025
+    filename: DZXU202411008 publicationTag: 北大核心, CAS, JST, EI,
+    CSCD, WJCI, 卓越期刊 CIF: 2.833 AIF: 1.721
+    卷次 	52
+    页码 	3741-3750
+    刊名 	电子学报
+    期号 	11
+    ISSN 	0372-2112
+    添加日期 	2025/11/20 15:38:03
+    修改日期 	2025/11/20 15:38:03
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于关系图卷积神经网络的跨句实体关系抽取
+
+    条目类型 	期刊文章
+    作者 	陈千
+    作者 	关春祥
+    作者 	郭鑫
+    作者 	王素格
+    摘要 	相对于句子级关系抽取，涉及关系的实体存在于多个句子中的情况在实
+    际场景中更常见。因此篇章级关系抽取逐渐成为近年来信息抽取领域的研究热
+    点。为了充分利用上下文信息和篇章结构信息，该文采用实体嵌入表示和实体
+    间的显式结构关系研究跨句实体关系抽取。首先，对篇章进行编码和构图；进
+    而，使用关系图卷积神经网络对图节点进行更新，并利用融合篇章全局信息的
+    节点嵌入表示更新边嵌入表示；最后，该模型使用一种迭代算法完成边信息的
+    推理，实现跨句实体关系抽取。实验结果表明，相比基线模型，在CDR和GDA数
+    据集上的跨句实体关系抽取性能得到了显著提高。
+    日期 	2025
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址
+    https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2025&filename=MESS202507006 <https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2025&filename=MESS202507006>
+    访问时间 	2025/11/20 15:36:27
+    其他 	original-container-title: Journal of Chinese Information
+    Processing foundation: 山西省自然科学基金(202203021221021)； 国家自
+    然科学基金(62376143)； download: 63 album: 信息科技 CLC:
+    TP183;TP391.1 dbcode: CJFQ dbname: CJFDLAST2025 filename:
+    MESS202507006 publicationTag: 北大核心, JST, CSCD, WJCI CIF: 1.993
+    AIF: 1.161
+    卷次 	39
+    页码 	62-71
+    刊名 	中文信息学报
+    期号 	7
+    ISSN 	1003-0077
+    添加日期 	2025/11/20 15:36:28
+    修改日期 	2025/11/20 15:36:28
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于多尺度特征融合卷积神经网络的牵引电机转子断条故障诊断方法
+
+    条目类型 	期刊文章
+    作者 	丁卓
+    作者 	张和生
+    作者 	汤昳琮
+    作者 	洪剑锋
+    摘要 	牵引电机是高速列车的动力部件，准确诊断牵引电机转子断条故障是保
+    障高速列车安全运行的重要手段，也是故障预测和健康管理（PHM）的重要内
+    容之一。牵引电机发生转子断条故障时，故障频率与供电频率接近，且幅值
+    小，易被掩盖；故障频率变化范围大，导致故障特征尺度变化大，有效特征难
+    以提取，诊断结果不准确。为解决这些问题，提出一种基于多尺度特征融合卷
+    积神经网络（MSFFCNN）的故障诊断方法。为剔除信号中的电源频率分量，增
+    强故障特征，采用希尔伯特变换（HT）对电流进行预处理，并将其转换为图
+    像；为适应不同尺度特征，实现有效特征提取，将高效通道注意力（ECA）融
+    入多尺度卷积模块，突出有效特征；在此基础上，设计了MSFFCNN模型。在两
+    个转子断条故障数据集上进行了实验，平均诊断准确率分别达到了99.85%和
+    99.82%。与相关的方法相比，所提诊断方法表现出更强的特征提取能力、抗噪
+    能力和泛化性能，能够更为准确识别转子断条故障，为针对性设定牵引电机的
+    维修计划提供参考。
+    日期 	2025-07-10
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.19595/j.cnki.1000-6753.tces.250208
+    <https://doi.org/10.19595/j.cnki.1000-6753.tces.250208>
+    访问时间 	2025/11/20 15:36:28
+    其他 	original-container-title: Transactions of China
+    Electrotechnical Society Status: advance online publication
+    foundation: 北京市自然科学基金项目（L191008）资助； 中国国家铁路集团
+    有限公司系统性重大项目（P2018J001）资助； download: 680 album: 工程
+    科技Ⅱ辑;信息科技 CLC: U269.6;TP183 dbcode: CAPJ dbname: CAPJLAST
+    filename: DGJS2025070900C publicationTag: 北大核心, JST, EI, CSCD,
+    WJCI, 卓越期刊 CIF: 7.021 AIF: 5.06
+    刊名 	电工技术学报
+    DOI 	10.19595/j.cnki.1000-6753.tces.250208
+    <http://doi.org/10.19595/j.cnki.1000-6753.tces.250208>
+    ISSN 	1000-6753
+    添加日期 	2025/11/20 15:36:28
+    修改日期 	2025/11/20 15:36:28
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于分组交叉门控机制图卷积神经网络的源荷超短期功率联合预测方法
+
+    条目类型 	期刊文章
+    作者 	赵婉冰
+    作者 	杨强
+    作者 	陈源奕
+    摘要 	多场站多类型源荷功率联合预测场景中，传统的时间序列预测模型难以
+    高效提取多类型源荷的时空相关特征和内在隐含联系，导致功率预测精度不
+    足。针对该问题，本文提出一种融合改进图卷积神经网络和分组交叉门控机制
+    的源荷超短期功率联合预测方法。首先，构建了基于改进型时空图卷积神经网
+    络的源荷超短期功率联合预测模型，可充分提取源侧(风电、光伏)与荷侧(电
+    负荷、热负荷)功率的时空关联特征。进而，设计了一种分组交叉门控机制并
+    集成到改进的图卷积网络中，可使不同类型源荷信息得以交叉调制，有效利用
+    了源荷之间的内在隐含联系，从而显著提升了多场站多类型源荷超短期功率联
+    合预测的精度。最后，基于我国北部某地区的风光电源和电热负荷数据进行了
+    对比实验，结果验证了所提出方法的有效性和优越性。
+    日期 	2025-07-18
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.13336/j.1003-6520.hve.20250444
+    <https://doi.org/10.13336/j.1003-6520.hve.20250444>
+    访问时间 	2025/11/20 15:36:02
+    其他 	original-container-title: High Voltage Engineering Status:
+    advance online publication foundation: 国家自然科学基金(52177119)；
+    download: 488 album: 工程科技Ⅱ辑;信息科技 CLC: TM715;TP183 dbcode:
+    CAPJ dbname: CAPJLAST filename: GDYJ20250716005 publicationTag: 北大
+    核心, CAS, INSPEC, JST, Pж(AJ), EI, CSCD, WJCI, 卓越期刊 CIF: 6.229
+    AIF: 4.398
+    刊名 	高电压技术
+    DOI 	10.13336/j.1003-6520.hve.20250444
+    <http://doi.org/10.13336/j.1003-6520.hve.20250444>
+    ISSN 	1003-6520
+    添加日期 	2025/11/20 15:36:02
+    修改日期 	2025/11/20 15:36:02
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        结合相干差频信号与卷积神经网络的水下声源定位方法
+
+    条目类型 	期刊文章
+    作者 	李权
+    作者 	刘霞
+    作者 	赵航芳
+    摘要 	匹配场处理在高失配、高频率的定位场景中定位性能大幅下降。为此,
+    在非相干差频声源定位技术和利用数据驱动的机器学习定位方法的基础上,提
+    出了一种基于相干差频信号互谱密度矩阵的卷积神经网络定位方法。该方法使
+    用模型和数据双驱动对失配、含噪等场景下的中高频水下声源进行定位。对于
+    差频信号,该方法在中心频率维度上对差频信号进行非相干平均以减小交叉项
+    的影响,并在差频频率维度上进行堆叠以保留不同频率之间的相关信息,将得到
+    的张量数据作为卷积神经网络的输入定位水下声源。使用SwellEx-96仿真环境
+    和2021年南海声层析长距离试验的海试数据分别进行了试验,结果表明,所提定
+    位算法适用于含噪、存在失配的海洋环境中的中高频声源定位,对水下声源定
+    位具有较好的宽容性。
+    日期 	2025
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址
+    https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2025&filename=XIBA202505011 <https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2025&filename=XIBA202505011>
+    访问时间 	2025/11/20 15:35:20
+    其他 	original-container-title: Acta Acustica foundation: 国家自然科
+    学基金项目(62071429)资助； download: 198 album: 基础科学;工程科技Ⅱ
+    辑;信息科技 CLC: TB56;TP183 dbcode: CJFQ dbname: CJFDLAST2025
+    filename: XIBA202505011 publicationTag: 北大核心, CAS, JST, EI,
+    CSCD, WJCI CIF: 1.48 AIF: 1.025
+    卷次 	50
+    页码 	1143-1153
+    刊名 	声学学报
+    期号 	5
+    ISSN 	0371-0025
+    添加日期 	2025/11/20 15:35:20
+    修改日期 	2025/11/20 15:35:20
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        融合空间域维纳滤波与卷积神经网络的水声DOA估计
+
+    条目类型 	期刊文章
+    作者 	邢传玺
+    作者 	黄廷龙
+    作者 	谈光枝
+    作者 	李维强
+    摘要 	针对实际海域中来自水流、船舶、海洋生物等噪声源的干扰使得接收信
+    号的信噪比较低，进而导致传统波达方向(DOA)估计算法性能下降的问题。该
+    文提出一种结合维纳滤波降噪的深度学习算法。首先，维纳滤波算法在频域需
+    要依靠噪声和信号功率谱，然而这些参数往往难以获取，因此将其转化为对信
+    号空间域进行降噪，并使用降噪后的数据集进行神经网络训练，从而减小低信
+    噪比条件下对方位角估计的影响。其次，为了实现网络的分类和回归估计功
+    能，使用改进的二进制交叉熵函数作为网络的损失函数。最后，在模型训练完
+    成后，通过小数标签策略预测网络输出结果中的离格误差，并对这些误差进行
+    修正以提高算法估计精度。仿真结果与海试数据验证结果表明，在低信噪比情
+    况下，以均方根误差为性能指标，网络整体性能提升了25.20%，在–20 dB信噪
+    比条件下，所提方法的均方根误差相较MUSIC和ESPRIT算法分别降低了93.42%
+    和92.14%。研究结果表明，本文算法能够充分提取空间特征，满足实际应用对
+    算法鲁棒性的需求，为浅海复杂环境的目标检测和定位任务提供了新的方案。
+    日期 	2025
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址
+    https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDAUTO&filename=DZYX202510027 <https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDAUTO&filename=DZYX202510027>
+    访问时间 	2025/11/20 15:35:20
+    其他 	original-container-title: Journal of Electronics & Information
+    Technology foundation: 国家自然科学基金(61761048)； 云南省基础研究专
+    项面上项目(20210AT070132)~~； download: 218 album: 信息科技;基础科
+    学;工程科技Ⅱ辑 CLC: TP183;TB56 dbcode: CJFQ dbname: CJFDAUTO
+    filename: DZYX202510027 publicationTag: 北大核心, CAS, JST, EI,
+    CSCD, WJCI, 卓越期刊 CIF: 3.124 AIF: 1.769
+    卷次 	47
+    页码 	3735-3744
+    刊名 	电子与信息学报
+    期号 	10
+    ISSN 	1009-5896
+    添加日期 	2025/11/20 15:35:20
+    修改日期 	2025/11/20 15:35:20
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于秘密分享的高效隐私保护卷积神经网络预测
+
+    条目类型 	期刊文章
+    作者 	白浩
+    作者 	何琨
+    作者 	陈晶
+    作者 	赵陈斌
+    作者 	杜瑞颖
+    摘要 	针对隐私保护卷积神经网络预测,先前的研究采用同态加密、安全多方
+    计算等方法来保护客户端隐私敏感数据.然而,这些方法通常面临预测时间开销
+    过大的问题.为了解决此问题,提出一个高效的隐私保护卷积神经网络预测方
+    案.该方案根据卷积神经网络中线性层和非线性层不同计算特点,设计矩阵分解
+    计算协议和参数化二次多项式近似ReLU激活函数方法,从而实现了线性层和非
+    线性层高效安全计算,并缓解了近似处理而导致的预测准确率损失.在线性层和
+    非线性层中的计算都可以通过轻量级密码原语秘密分享来完成.理论分析和实
+    验结果表明,在保证安全性前提下,所提方案将预测速度提高了2–15倍,同时预
+    测准确率损失仅约为2%.
+    日期 	2025-09-30
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.13328/j.cnki.jos.007475
+    <https://doi.org/10.13328/j.cnki.jos.007475>
+    访问时间 	2025/11/20 15:34:59
+    其他 	original-container-title: Journal of Software Status: advance
+    online publication foundation: 国家重点研发计划(2022YFB3102100)； 国
+    家自然科学基金(62172303,62302343,62076187)； 湖北省重点研发计划
+    (2021BAA190,2022BAA039)； 山东省重点研发计划(2022CXPT055)；
+    download: 156 album: 信息科技 CLC: TP183;TP309 dbcode: CAPJ dbname:
+    CAPJLAST filename: RJXB20250928004 publicationTag: 北大核心, INSPEC,
+    JST, Pж(AJ), EI, CSCD, WJCI, 卓越期刊 CIF: 5.277 AIF: 2.52
+    刊名 	软件学报
+    DOI 	10.13328/j.cnki.jos.007475
+    <http://doi.org/10.13328/j.cnki.jos.007475>
+    ISSN 	1000-9825
+    添加日期 	2025/11/20 15:34:59
+    修改日期 	2025/11/20 15:34:59
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        融合联邦学习与量子卷积神经网络的入侵检测模型
+
+    条目类型 	期刊文章
+    作者 	李冬芬
+    作者 	向秋雨
+    作者 	胡志康
+    作者 	袁宇航
+    作者 	孙雨晨
+    作者 	徐菡
+    作者 	宋征宇
+    作者 	韩浩民
+    作者 	白冬雪
+    作者 	多滨
+    作者 	周让
+    摘要 	入侵检测系统（intrusion detection system,IDS）是保障网络环境安
+    全的重要手段，但传统深度学习方法在应对非频繁攻击特征与数据不平衡问题
+    时存在高误报率，且对高维稀疏特征建模能力有限.随着物联网与边缘设备的
+    普及，入侵检测数据呈现出分布式与异构化趋势，且因隐私保护要求，原始数
+    据难以集中训练.为此，提出了一种融合联邦学习与量子卷积神经网络的入侵
+    检测模型FedCQIDS(federated classical hybrid quantum convolutional
+    intrusion detection system），在客户端本地模型中引入轻量化的量子卷积
+    层，通过量子比特复用技术提升资源利用率，增强对低频稀疏攻击特征的表达
+    能力，并借助联邦学习架构实现多客户端间的协同建模与隐私保护.在NSL-KDD
+    与UNSW-NB15两个数据集上开展了相关的实验，结果表明Fed CQIDS在准确率与
+    损失值方面均优于传统联邦模型，特别是在少数类攻击识别任务中表现出更高
+    的检测性能与训练稳定性，展示了其在隐私保护与高效部署下的应用潜力.
+    日期 	2025
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址
+    https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDAUTO&filename=JFYZ202510010 <https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDAUTO&filename=JFYZ202510010>
+    访问时间 	2025/11/20 15:34:38
+    其他 	original-container-title: Journal of Computer Research and
+    Development foundation: 国家自然科学基金项目（62172060）； 国家重点
+    研发计划项目（2022YFB3304303）； 四川省科技计划项目
+    （2023YFG0374,24JBGS0007）； 成都市经济与信息化局项目
+    （AZ2024-0216）； 成都市科学技术局项目（2024ZHCG0064）~~； download:
+    234 album: 信息科技 CLC: TP183;TP393.08 dbcode: CJFQ dbname:
+    CJFDAUTO filename: JFYZ202510010 publicationTag: 北大核心, JST,
+    Pж(AJ), EI, CSCD, WJCI CIF: 4.262 AIF: 2.228
+    卷次 	62
+    页码 	2512-2522
+    刊名 	计算机研究与发展
+    期号 	10
+    ISSN 	1000-1239
+    添加日期 	2025/11/20 15:34:39
+    修改日期 	2025/11/20 15:34:39
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于训练干扰卷积神经网络的风轮不平衡识别方法研究
+
+    条目类型 	期刊文章
+    作者 	陈明阳
+    作者 	邢作霞
+    作者 	郭珊珊
+    作者 	徐健
+    作者 	刘洋
+    摘要 	针对对风工况下的风轮不平衡的识别问题，提出一种融合专家系统和卷
+    积神经网络的风轮不平衡识别方法。首先，基于对风轮不平衡的响应分析，提
+    出一种风轮不平衡检测的专家系统。甄别风轮不平衡的状态，隔离风轮不平衡
+    类型，定位风轮不平衡叶片。其次，针对风况变化对识别准确率的影响，提出
+    一种基于多层训练干扰卷积神经网络的风轮不平衡识别方法，融合变概率的
+    Dropout方法和极小的Mini-batch两种训练干扰策略进行训练，模拟风况变化
+    的不确定性。最后，建立交叉验证数据集，对所提出方法进行验证与测试，对
+    风轮不平衡识别的平均准确率达到98%以上，证明了该方法的有效性。
+    日期 	2025
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.19912/j.0254-0096.tynxb.2024-0869
+    <https://doi.org/10.19912/j.0254-0096.tynxb.2024-0869>
+    访问时间 	2025/11/20 15:34:39
+    其他 	original-container-title: Acta Energiae Solaris Sinica
+    download: 81 album: 工程科技Ⅱ辑;信息科技 CLC: TM315;TP183 dbcode:
+    CJFQ dbname: CJFDLAST2025 filename: TYLX202509020 publicationTag: 北
+    大核心, CAS, JST, EI, CSCD, WJCI CIF: 3.598 AIF: 2.264
+    卷次 	46
+    页码 	162-170
+    刊名 	太阳能学报
+    DOI 	10.19912/j.0254-0096.tynxb.2024-0869
+    <http://doi.org/10.19912/j.0254-0096.tynxb.2024-0869>
+    期号 	9
+    ISSN 	0254-0096
+    添加日期 	2025/11/20 15:34:39
+    修改日期 	2025/11/20 15:34:39
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        卷积神经网络的可解释性研究综述
+
+    条目类型 	期刊文章
+    作者 	窦慧
+    作者 	张凌茗
+    作者 	韩峰
+    作者 	申富饶
+    作者 	赵健
+    摘要 	神经网络模型性能日益强大,被广泛应用于解决各类计算机相关任务,并
+    表现出非常优秀的能力,但人类对神经网络模型的运行机制却并不完全理解.针
+    对神经网络可解释性的研究进行了梳理和汇总,就模型可解释性研究的定义、
+    必要性、分类、评估等方面进行了详细的讨论.从解释算法的关注点出发,提出
+    一种神经网络可解释算法的新型分类方法,为理解神经网络提供一个全新的视
+    角.根据提出的新型分类方法对当前卷积神经网络的可解释方法进行梳理,并对
+    不同类别解释算法的特点进行分析和比较.同时,介绍了常见可解释算法的评估
+    原则和评估方法.对可解释神经网络的研究方向与应用进行概述.就可解释神经
+    网络面临的挑战进行阐述,并针对这些挑战给出可能的解决方向.
+    日期 	2024
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.13328/j.cnki.jos.006758
+    <https://doi.org/10.13328/j.cnki.jos.006758>
+    访问时间 	2025/11/20 15:30:42
+    其他 	original-container-title: Journal of Software foundation: 科技
+    部科技创新2030重大项目(2021ZD0201300)； 国家自然科学基金(61876076)；
+    download: 7417 album: 信息科技 CLC: TP183 CNKICite: 212 dbcode: CJFQ
+    dbname: CJFDLAST2024 filename: RJXB202401008 publicationTag: 北大核
+    心, INSPEC, JST, Pж(AJ), EI, CSCD, WJCI, 卓越期刊 CIF: 5.277 AIF: 2.52
+    卷次 	35
+    页码 	159-184
+    刊名 	软件学报
+    DOI 	10.13328/j.cnki.jos.006758
+    <http://doi.org/10.13328/j.cnki.jos.006758>
+    期号 	1
+    ISSN 	1000-9825
+    添加日期 	2025/11/20 15:30:44
+    修改日期 	2025/11/20 15:30:44
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于卷积神经网络的锂离子电池SOH估算
+
+    条目类型 	期刊文章
+    作者 	李超然
+    作者 	肖飞
+    作者 	樊亚翔
+    作者 	杨国润
+    作者 	唐欣
+    摘要 	锂离子电池健康状态(SOH)描述了电池当前老化程度,其估算难点在于缺
+    乏明确统一的定义、无法直接测量以及难以确定数量合适、相关性高的估算输
+    入量。为了克服上述问题,该文从容量的角度定义SOH,并将锂离子电池恒流-恒
+    压充电过程中的电压、电流、温度曲线作为输入,提出采用一维深度卷积神经
+    网络(CNN)实现锂离子电池容量估算以获取SOH。在NASA锂离子电池随机使用数
+    据集和牛津电池老化数据集上进行的实验结果表明,该方法能够实现准确的SOH
+    估算,且具备网络参数少、占用内存小的优势。另外,通过实验讨论了网络输
+    入、模型结构、数据增强对所提出的SOH估算方法的影响。
+    日期 	2020
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.19595/j.cnki.1000-6753.tces.191617
+    <https://doi.org/10.19595/j.cnki.1000-6753.tces.191617>
+    访问时间 	2025/11/20 15:30:43
+    其他 	original-container-title: Transactions of China
+    Electrotechnical Society foundation: 国家自然科学基金（51907200）；
+    国防科技创新特区资助项目； download: 2375 album: 工程科技Ⅱ辑;信息科
+    技 CLC: TM912;TP183 CNKICite: 187 dbcode: CJFQ dbname: CJFDLAST2020
+    filename: DGJS202019012 publicationTag: 北大核心, JST, EI, CSCD,
+    WJCI, 卓越期刊 CIF: 7.021 AIF: 5.06
+    卷次 	35
+    页码 	4106-4119
+    刊名 	电工技术学报
+    DOI 	10.19595/j.cnki.1000-6753.tces.191617
+    <http://doi.org/10.19595/j.cnki.1000-6753.tces.191617>
+    期号 	19
+    ISSN 	1000-6753
+    添加日期 	2025/11/20 15:30:44
+    修改日期 	2025/11/20 15:30:44
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        卷积神经网络在视觉图像检测的研究进展
+
+    条目类型 	期刊文章
+    作者 	蓝金辉
+    作者 	王迪
+    作者 	申小盼
+    摘要 	视觉图像检测在机器视觉领域有着重要的研究意义和应用价值。近年
+    来,卷积神经网络的发展带动了视觉图像检测领域的进步。大量新理论、新方
+    法被应用于卷积神经网络,提高了网络对特征的表达能力,降低了网络的复杂
+    性,增强了网络的性能。研究阐述了卷积神经网络的基本构成,从卷积层,池化
+    层,激活函数,网络正则化和网络优化等方面总结了卷积神经网络近年来的改进
+    方法,梳理了卷积神经网络在视觉图像检测领域的应用,总结了卷积神经网络在
+    视觉图像检测领域的优点,并展望了未来的研究方向。
+    日期 	2020
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.19650/j.cnki.cjsi.J2006003
+    <https://doi.org/10.19650/j.cnki.cjsi.J2006003>
+    访问时间 	2025/11/20 15:30:44
+    其他 	original-container-title: Chinese Journal of Scientific
+    Instrument foundation: 装备预先研究项目(61403110404)资助； download:
+    2019 album: 工程科技Ⅱ辑;信息科技 CLC: TP391.41;TP183 CNKICite: 186
+    dbcode: CJFQ dbname: CJFDLAST2020 filename: YQXB202004019
+    publicationTag: 北大核心, CAS, JST, EI, CSCD, WJCI, 卓越期刊 CIF:
+    3.4 AIF: 2.338
+    卷次 	41
+    页码 	167-182
+    刊名 	仪器仪表学报
+    DOI 	10.19650/j.cnki.cjsi.J2006003
+    <http://doi.org/10.19650/j.cnki.cjsi.J2006003>
+    期号 	4
+    ISSN 	0254-3087
+    添加日期 	2025/11/20 15:30:44
+    修改日期 	2025/11/20 15:30:44
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        卷积神经网络结构优化综述
+
+    条目类型 	期刊文章
+    作者 	林景栋
+    作者 	吴欣怡
+    作者 	柴毅
+    作者 	尹宏鹏
+    摘要 	近年来,卷积神经网络(Convolutional neural network, CNNs)在计算
+    机视觉、自然语言处理、语音识别等领域取得了突飞猛进的发展,其强大的特
+    征学习能力引起了国内外专家学者广泛关注.然而,由于深度卷积神经网络普遍
+    规模庞大、计算度复杂,限制了其在实时要求高和资源受限环境下的应用.对卷
+    积神经网络的结构进行优化以压缩并加速现有网络有助于深度学习在更大范围
+    的推广应用,目前已成为深度学习社区的一个研究热点.本文整理了卷积神经网
+    络结构优化技术的发展历史、研究现状以及典型方法,将这些工作归纳为网络
+    剪枝与稀疏化、张量分解、知识迁移和精细模块设计4个方面并进行了较为全
+    面的探讨.最后,本文对当前研究的热点与难点作了分析和总结,并对网络结构
+    优化领域未来的发展方向和应用前景进行了展望.
+    日期 	2020
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.16383/j.aas.c180275
+    <https://doi.org/10.16383/j.aas.c180275>
+    访问时间 	2025/11/20 15:26:40
+    其他 	original-container-title: Acta Automatica Sinica foundation:
+    国家自然科学基金(61633005,61773080)； 中央高校基本科研业务费专项资金
+    (2019CDYGZD001)； 重庆市基础科学与研究技术专项(cstc2015jcyj B0569)；
+    重庆大学科研后备拔尖人才(cqu2018CDHB1B04)； 重庆市重点科技专项子项
+    (cstc2015shmsztzx30001)资助~~； download: 7871 album: 信息科技 CLC:
+    TP183 dbcode: CJFQ dbname: CJFDLAST2020 filename: MOTO202001003
+    publicationTag: 北大核心, CAS, JST, EI, CSCD, WJCI, 卓越期刊 CIF:
+    6.32 AIF: 3.178
+    卷次 	46
+    页码 	24-37
+    刊名 	自动化学报
+    DOI 	10.16383/j.aas.c180275 <http://doi.org/10.16383/j.aas.c180275>
+    期号 	1
+    ISSN 	0254-4156
+    添加日期 	2025/11/20 15:26:40
+    修改日期 	2025/11/20 15:26:40
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于卷积神经网络与改进Vision Transformer的涡旋光束叠加态OAM模式
+        识别方法
+
+    条目类型 	期刊文章
+    作者 	宋泽坤
+    作者 	刘涛
+    作者 	赵振兵
+    作者 	张荣香
+    作者 	代华德
+    摘要 	本文提出了一种基于卷积神经网络(Convolutional Neural Network，
+    CNN)与改进Vision Transformer（VIT）的涡旋光束叠加态轨道角动量
+    (Orbital Angular Momentum， OAM)模式识别方法。以海洋湍流畸变的三组拉
+    盖尔-高斯光束模式叠加光场强度分布图为输入，有机整合了CNN的局部特征提
+    取优势与稀疏注意力机制驱动的VIT的全局快速分类能力，实现端到端的波前
+    畸变高效精准识别。通过数值仿真模拟海洋湍流环境叠加态OAM模式，利用功
+    率谱反演法模拟海洋湍流，以识别准确率和混淆矩阵作为OAM模式识别的评估
+    指标。实验结果表明，CNN-VIT模型在不同海洋湍流强度、波长、传输距离和
+    模式间隔条件下均展现出优异的OAM模式识别准确率性能。与现有的CNN和VIT
+    相比，本文模型在强海洋湍流条件下识别准确率分别提升了23.5%和9.65%。这
+    证明了CNN-VIT模型在涡旋光叠加态OAM模式识别的应用潜力。
+    日期 	2025-11-04
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址
+    https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CAPJ&dbname=CAPJLAST&filename=WLXB20251031006 <https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CAPJ&dbname=CAPJLAST&filename=WLXB20251031006>
+    访问时间 	2025/11/20 15:26:08
+    其他 	original-container-title: Acta Physica Sinica Status: advance
+    online publication foundation: 国家自然科学基金(批准号:62071180)；
+    河北省研究生课程思政示范项目（批准号:YKCSZ2024095）资助的课题；
+    download: 174 album: 信息科技 CLC: TP183;TN929.1 dbcode: CAPJ
+    dbname: CAPJLAST filename: WLXB20251031006 publicationTag: 北大核心,
+    CAS, INSPEC, SCI, JST, EI, CSCD, WJCI, 卓越期刊 CIF: 1.093 AIF: 0.688
+    刊名 	物理学报
+    ISSN 	1000-3290
+    添加日期 	2025/11/20 15:26:08
+    修改日期 	2025/11/20 15:26:08
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        A convolutional neural network-based, quantitative complete
+        blood count scattergram-mapping framework promptly screens acute
+        promyelocytic leukemia with high sensitivity
+
+    条目类型 	期刊文章
+    作者 	Hongyan Liao
+    作者 	Yuanxin Xu
+    作者 	Qiang Meng
+    作者 	Zhigang Mao
+    作者 	Yifan Qiao
+    作者 	Yan Liu
+    作者 	Qin Zheng
+    摘要 	BACKGROUND: Acute promyelocytic leukemia (APL) is a subtype of
+    acute myeloid leukemia (AML) characterized by its rapidly
+    progressive and fatal clinical course if untreated, although it is
+    curable if treated in a timely manner. Promptly screening patients
+    who have results that are suspicious for APL is vital to overcome
+    early death. METHODS: The authors developed an innovative framework
+    consisting of ResNet-18, a convolutional neural network
+    architecture, with the objective of quantitatively mapping a
+    complete blood count (CBC) scattergram to quickly and robustly
+    indicate a probable susceptibility to APL. Three hundred and twenty
+    scattergrams of the white blood cell differential channel from 51
+    patients with APL, 510 scattergrams from 105 patients who had
+    non-APL AML, and 320 scattergrams from 320 healthy controls were
+    randomly stratified at a ratio of 4:1 and split into training and
+    testing data sets to accomplish five-fold cross-validation. RESULTS:
+    Both the area under the curve and the average precision of >0.99
+    were achieved in each fold. Three hundred four of the 320 APL
+    scattergrams (95%) were correctly flagged by the model, which
+    outcompeted the CBC review rules recommended by the International
+    Society of Laboratory Hematology (all p < .001). External validation
+    based on an independent testing data set that included 56
+    scattergrams from 31 patients with APL, 56 scattergrams from 55
+    patients with non-APL AML, and 64 scattergrams from 64 healthy
+    controls also confirmed the sensitivity and specificity of the
+    framework. CONCLUSIONS: To the authors' knowledge, their
+    convolutional neural network-based framework is the first to use
+    scattergram output from routine CBC analysis to map suspicious APL
+    early with outstanding sensitivity, specificity, and precision. The
+    authors also describe a new CBC workflow incorporating this
+    framework upstream of the morphologic review, which would provide
+    the earliest flag for APL. PLAIN LANGUAGE SUMMARY: The authors
+    propose an innovative way to visualize complete blood counts (CBCs)
+    by mapping the difference in white blood cell counts using automated
+    CBC analysis to identify potential acute promyelocytic leukemia
+    (APL) using a convolutional neural network (CNN), which can
+    eliminate the potential pitfalls of manual observation. Analyses of
+    an unprecedented, realistic data set validated that the quantitative
+    relationship between the CBC scattergram and an APL abnormality is
+    highly consistent. This is the first study to date focusing on
+    screening for APL using scattergrams of the difference in white
+    blood cell counts from routine CBC tests and has significant
+    clinical relevance. The authors recommend using this method even
+    before analyzing cell images, which could provide the earliest way
+    to screen for APL in a sensitive and accurate way.
+    日期 	2023-10-01
+    语言 	eng
+    文库编目 	PubMed
+    其他 	PMID: 37254628 TLDR: Patients who have results that are
+    suspicious for APL are screened for and cured if treated in a timely
+    manner, and those who do not have results are urged to be screened
+    again.
+    卷次 	129
+    页码 	2986-2998
+    刊名 	Cancer
+    DOI 	10.1002/cncr.34890 <http://doi.org/10.1002/cncr.34890>
+    期号 	19
+    刊名简称 	Cancer
+    ISSN 	1097-0142
+    添加日期 	2025/11/20 15:21:02
+    修改日期 	2025/11/20 15:32:27
+
+
+          附件
+
+      o PubMed entry
+  *
+
+
+        Differentiating Magnetic Resonance Images of Pyogenic
+        Spondylitis and Spinal Modic Change Using a Convolutional Neural
+        Network
+
+    条目类型 	期刊文章
+    作者 	Tomohito Mukaihata
+    作者 	Satoshi Maki
+    作者 	Yawara Eguchi
+    作者 	Kim Geundong
+    作者 	Junpei Shoda
+    作者 	Hajime Yokota
+    作者 	Sumihisa Orita
+    作者 	Yasuhiro Shiga
+    作者 	Kazuhide Inage
+    作者 	Takeo Furuya
+    作者 	Seiji Ohtori
+    摘要 	STUDY DESIGN: A retrospective analysis of magnetic resonance
+    imaging (MRI). OBJECTIVE: The study aimed to evaluate the
+    performance of a convolutional neural network (CNN) to differentiate
+    spinal pyogenic spondylitis from Modic change on MRI. We compared
+    the performance of CNN to that of four clinicians. SUMMARY OF
+    BACKGROUND DATA: Discrimination between pyogenic spondylitis and
+    spinal Modic change is crucial in clinical practice. CNN
+    deep-learning approaches for medical imaging are being increasingly
+    utilized. METHODS: We retrospectively reviewed MRIs from pyogenic
+    spondylitis and spinal Modic change patients. There were 50 patients
+    per group. Sagittal T1-weighted (T1WI), sagittal T2-weighted (T2WI),
+    and short TI inversion recovery (STIR) MRIs were used for CNN
+    training and validation. The deep learning framework Tensorflow was
+    used to construct the CNN architecture. To evaluate CNN performance,
+    we plotted the receiver operating characteristic curve and
+    calculated the area under the curve. We compared the accuracy,
+    sensitivity, and specificity of CNN diagnosis to that of a
+    radiologist, spine surgeon, and two orthopedic surgeons. RESULTS:
+    The CNN-based area under the curves of the receiver operating
+    characteristic curve from the T1WI, T2WI, and STIR were 0.95, 0.94,
+    and 0.95, respectively. The accuracy of the CNN was significantly
+    greater than that of the four clinicians on T1WI and STIR (P<0.05),
+    and better than a radiologist and one orthopedic surgeon on the T2WI
+    (P<0.05). The sensitivity was significantly better than that of the
+    four clincians on T1WI and STIR (P<0.05), and better than a
+    radiologist and one orthopedic surgeon on the T2WI (P<0.05). The
+    specificity was significantly better than one orthopedic surgeon on
+    T1WI and T2WI (P<0.05) and better than both orthopedic surgeons on
+    STIR (P<0.05). CONCLUSION: We differentiated between Modic changes
+    and pyogenic spondylitis using a CNN that interprets MRI. The
+    performance of the CNN was comparable to, or better than, that of
+    the four clinicians.
+    日期 	2023-02-15
+    语言 	eng
+    文库编目 	PubMed
+    其他 	PMID: 36692159 TLDR: A convolutional neural network is
+    evaluated to differentiate spinal pyogenic spondylitis from Modic
+    change on MRI using a CNN that interprets MRI and was comparable to,
+    or better than, that of four clinicians.
+    卷次 	48
+    页码 	288-294
+    刊名 	Spine
+    DOI 	10.1097/BRS.0000000000004532
+    <http://doi.org/10.1097/BRS.0000000000004532>
+    期号 	4
+    刊名简称 	Spine (Phila Pa 1976)
+    ISSN 	1528-1159
+    添加日期 	2025/11/20 15:21:02
+    修改日期 	2025/11/20 15:23:06
+
+
+          附件
+
+      o PubMed entry
+  *
+
+
+        A convolutional neural network to characterize mouse hindlimb
+        foot strikes during voluntary wheel running
+
+    条目类型 	期刊文章
+    作者 	Phillipe Huber
+    作者 	Brandon J. Ausk
+    作者 	K. Lionel Tukei
+    作者 	Steven D. Bain
+    作者 	Ted S. Gross
+    作者 	Sundar Srinivasan
+    摘要 	Voluntary wheel running (VWR) is widely used to study how
+    exercise impacts a variety of physiologies and pathologies in
+    rodents. The primary activity readout of VWR is aggregated wheel
+    turns over a given time interval (most often, days). Given the
+    typical running frequency of mice (∼4 Hz) and the intermittency of
+    voluntary running, aggregate wheel turn counts, therefore, provide
+    minimal insight into the heterogeneity of voluntary activity. To
+    overcome this limitation, we developed a six-layer convolutional
+    neural network (CNN) to determine the hindlimb foot strike frequency
+    of mice exposed to VWR. Aged female C57BL/6 mice (22 months, n = 6)
+    were first exposed to wireless angled running wheels for 2 h/d,
+    5 days/wk for 3 weeks with all VWR activities recorded at 30
+    frames/s. To validate the CNN, we manually classified foot strikes
+    within 4800 1-s videos (800 randomly chosen for each mouse) and
+    converted those values to frequency. Upon iterative optimization of
+    model architecture and training on a subset of classified videos
+    (4400), the CNN model achieved an overall training set accuracy of
+    94%. Once trained, the CNN was validated on the remaining 400 videos
+    (accuracy: 81%). We then applied transfer learning to the CNN to
+    predict the foot strike frequency of young adult female C57BL6 mice
+    (4 months, n = 6) whose activity and gait differed from old mice
+    during VWR (accuracy: 68%). In summary, we have developed a novel
+    quantitative tool that non-invasively characterizes VWR activity at
+    a much greater resolution than was previously accessible. This
+    enhanced resolution holds potential to overcome a primary barrier to
+    relating intermittent and heterogeneous VWR activity to induced
+    physiological responses.
+    日期 	2023
+    语言 	eng
+    文库编目 	PubMed
+    其他 	PMID: 37383524 PMCID: PMC10299834 TLDR: A six-layer
+    convolutional neural network was developed to determine the hindlimb
+    foot strike frequency of mice exposed to VWR and this enhanced
+    resolution holds potential to overcome a primary barrier to relating
+    intermittent and heterogeneous VWR activity to induced physiological
+    responses.
+    卷次 	11
+    页码 	1206008
+    刊名 	Frontiers in Bioengineering and Biotechnology
+    DOI 	10.3389/fbioe.2023.1206008
+    <http://doi.org/10.3389/fbioe.2023.1206008>
+    刊名简称 	Front Bioeng Biotechnol
+    ISSN 	2296-4185
+    添加日期 	2025/11/20 15:21:02
+    修改日期 	2025/11/20 15:54:34
+
+
+          附件
+
+      o 全文
+      o PubMed entry
+  *
+
+
+        Research and Application of Ancient Chinese Pattern Restoration
+        Based on Deep Convolutional Neural Network
+
+    条目类型 	期刊文章
+    作者 	Xuhui Fu
+    摘要 	In recent years, deep learning, as a very popular artificial
+    intelligence method, can be said to be a small area in the field of
+    image recognition. It is a type of machine learning, actually
+    derived from artificial neural networks, and is a method used to
+    learn the characteristics of sample data. It is a multilayer
+    network, which can learn the information from the bottom to the top
+    of the image through the multilayer network, so as to extract the
+    characteristics of the sample, and then perform identification and
+    classification. The purpose of deep learning is to make the machine
+    have the same analytical and learning capabilities as the human
+    brain. The ability of deep learning in data processing (including
+    images) is unmatched by other methods, and its achievements in
+    recent years have left other methods behind. This article
+    comprehensively reviews the application research progress of deep
+    convolutional neural networks in ancient Chinese pattern restoration
+    and mainly focuses on the research based on deep convolutional
+    neural networks. The main tasks are as follows: (1) a detailed and
+    comprehensive introduction to the basic knowledge of deep
+    convolutional neural and a summary of related algorithms along the
+    three directions of text preprocessing, learning, and neural
+    networks are provided. This article focuses on the related mechanism
+    of traditional pattern repair based on deep convolutional neural
+    network and analyzes the key structure and principle. (2) Research
+    on image restoration models based on deep convolutional networks and
+    adversarial neural networks is carried out. The model is mainly
+    composed of four parts, namely, information masking, feature
+    extraction, generating network, and discriminant network. The main
+    functions of each part are independent and interdependent. (3) The
+    method based on the deep convolutional neural network and the other
+    two methods are tested on the same part of the Qinghai traditional
+    embroidery image data set. From the final evaluation index of the
+    experiment, the method in this paper has better evaluation index
+    than the traditional image restoration method based on samples and
+    the image restoration method based on deep learning. In addition,
+    from the actual image restoration effect, the method in this paper
+    has a better image restoration effect than the other two methods,
+    and the restoration results produced are more in line with the habit
+    of human observation with the naked eye.
+    日期 	2021
+    语言 	eng
+    文库编目 	PubMed
+    其他 	PMID: 34925485 PMCID: PMC8683204 TLDR: The related mechanism
+    of traditional pattern repair based on deep convolutional neural
+    network and analyzes the key structure and principle has a better
+    image restoration effect than the other two methods, and the
+    restoration results produced are more in line with the habit of
+    human observation with the naked eye.
+    卷次 	2021
+    页码 	2691346
+    刊名 	Computational Intelligence and Neuroscience
+    DOI 	10.1155/2021/2691346 <http://doi.org/10.1155/2021/2691346>
+    刊名简称 	Comput Intell Neurosci
+    ISSN 	1687-5273
+    添加日期 	2025/11/20 15:21:02
+    修改日期 	2025/11/20 15:23:14
+
+
+          附件
+
+      o PubMed entry
+  *
+
+
+        WaveSleepNet: An interpretable deep convolutional neural network
+        for the continuous classification of mouse sleep and wake
+
+    条目类型 	期刊文章
+    作者 	Korey Kam
+    作者 	David M. Rapoport
+    作者 	Ankit Parekh
+    作者 	Indu Ayappa
+    作者 	Andrew W. Varga
+    摘要 	BACKGROUND: Recent advancement in deep learning provides a
+    pivotal opportunity to potentially supplement or supplant the
+    limiting step of manual sleep scoring. NEW METHOD: In this paper, we
+    characterize the WaveSleepNet (WSN), a deep convolutional neural
+    network (CNN) that uses wavelet transformed images of mouse EEG/EMG
+    signals to autoscore sleep and wake. RESULTS: WSN achieves an epoch
+    by epoch mean accuracy of 0.86 and mean F1 score of 0.82 compared to
+    manual scoring by a human expert. In mice experiencing mechanically
+    induced sleep fragmentation, an overall epoch by epoch mean accuracy
+    of 0.80 is achieved by WSN and classification of non-REM (NREM)
+    sleep is not compromised, but the high level of sleep fragmentation
+    results in WSN having greater difficulty differentiating REM from
+    NREM sleep. We also find that WSN achieves similar levels of
+    accuracy on an independent dataset of externally acquired EEG/EMG
+    recordings with an overall epoch by epoch accuracy of 0.91. We also
+    compared conventional summary sleep metrics in mice sleeping ad
+    libitum. WSN systematically biases sleep fragmentation metrics of
+    bout number and bout length leading to an overestimated degree of
+    sleep fragmentation. COMPARISON WITH EXISTING METHODS: In a
+    cross-validation, WSN has a greater macro and stage-specific
+    accuracy compared to a conventional random forest classifier.
+    Examining the WSN, we find that it automatically learns spectral
+    features consistent with manual scoring criteria that are used to
+    define each class. CONCLUSION: These results suggest to us that WSN
+    is capable of learning visually agreeable features and may be useful
+    as a supplement to human manual scoring.
+    日期 	2021-08-01
+    语言 	eng
+    短标题 	WaveSleepNet
+    文库编目 	PubMed
+    其他 	PMID: 34052291 PMCID: PMC8457529 TLDR: The WaveSleepNet, a
+    deep convolutional neural network that uses wavelet transformed
+    images of mouse EEG/EMG signals to autoscore sleep and wake is
+    characterized and it is found that it automatically learns spectral
+    features consistent with manual scoring criteria that are used to
+    define each class.
+    卷次 	360
+    页码 	109224
+    刊名 	Journal of Neuroscience Methods
+    DOI 	10.1016/j.jneumeth.2021.109224
+    <http://doi.org/10.1016/j.jneumeth.2021.109224>
+    刊名简称 	J Neurosci Methods
+    ISSN 	1872-678X
+    添加日期 	2025/11/20 15:21:02
+    修改日期 	2025/11/20 15:21:58
+
+
+          附件
+
+      o 全文
+      o PubMed entry
+  *
+
+
+        Deep Learning Applications in Imaging of Acute Ischemic Stroke:
+        A Systematic Review and Narrative Summary
+
+    条目类型 	期刊文章
+    作者 	Bin Jiang
+    作者 	Nancy Pham
+    作者 	Eric K. van Staalduinen
+    作者 	Yongkai Liu
+    作者 	Sanaz Nazari-Farsani
+    作者 	Amirhossein Sanaat
+    作者 	Henk van Voorst
+    作者 	Ates Fettahoglu
+    作者 	Donghoon Kim
+    作者 	Jiahong Ouyang
+    作者 	Ashwin Kumar
+    作者 	Aditya Srivatsan
+    作者 	Ramy Hussein
+    作者 	Maarten G. Lansberg
+    作者 	Fernando Boada
+    作者 	Greg Zaharchuk
+    摘要 	Background Acute ischemic stroke (AIS) is a major cause of
+    morbidity and mortality, requiring swift and precise clinical
+    decisions based on neuroimaging. Recent advances in deep
+    learning-based computer vision and language artificial intelligence
+    (AI) models have demonstrated transformative performance for several
+    stroke-related applications. Purpose To evaluate deep learning
+    applications for imaging in AIS in adult patients, providing a
+    comprehensive overview of the current state of the technology and
+    identifying opportunities for advancement. Materials and Methods A
+    systematic literature review was conducted following Preferred
+    Reporting Items for Systematic Reviews and Meta-Analyses guidelines.
+    A comprehensive search of four databases from January 2016 to
+    January 2024 was performed, targeting deep learning applications for
+    imaging of AIS, including automated detection of large vessel
+    occlusion and measurement of Alberta Stroke Program Early CT Score.
+    Articles were selected based on predefined inclusion and exclusion
+    criteria, focusing on convolutional neural networks and
+    transformers. The top-represented areas were addressed, and the
+    relevant information was extracted and summarized. Results Of 380
+    studies included, 171 (45.0%) focused on stroke lesion segmentation,
+    129 (33.9%) on classification and triage, 31 (8.2%) on outcome
+    prediction, 15 (3.9%) on generative AI and large language models,
+    and 11 (2.9%) on rapid or low-dose imaging specific to stroke
+    applications. Detailed data extraction was performed for 68 studies.
+    Public AIS datasets are also highlighted, for researchers developing
+    AI models for stroke imaging. Conclusion Deep learning applications
+    have permeated AIS imaging, particularly for stroke lesion
+    segmentation. However, challenges remain, including the need for
+    standardized protocols and test sets, larger public datasets, and
+    performance validation in real-world settings. © RSNA, 2025
+    Supplemental material is available for this article.
+    日期 	2025-04
+    语言 	eng
+    短标题 	Deep Learning Applications in Imaging of Acute Ischemic Stroke
+    文库编目 	PubMed
+    其他 	PMID: 40197098 TLDR: Deep learning applications have permeated
+    AIS imaging, particularly for stroke lesion segmentation, however,
+    challenges remain, including the need for standardized protocols and
+    test sets, larger public datasets, and performance validation in
+    real-world settings.
+    卷次 	315
+    页码 	e240775
+    刊名 	Radiology
+    DOI 	10.1148/radiol.240775 <http://doi.org/10.1148/radiol.240775>
+    期号 	1
+    刊名简称 	Radiology
+    ISSN 	1527-1315
+    添加日期 	2025/11/20 15:21:02
+    修改日期 	2025/11/20 15:32:26
+
+
+          附件
+
+      o PubMed entry
+  *
+
+
+        Convolutional neural network-based artificial intelligence for
+        the diagnosis of early esophageal cancer based on endoscopic
+        images: A meta-analysis
+
+    条目类型 	期刊文章
+    作者 	Hongbiao Ma
+    作者 	Longlun Wang
+    作者 	Yinlin Chen
+    作者 	Lu Tian
+    摘要 	BACKGROUND: Early screening and treatment of esophageal cancer
+    (EC) is particularly important for the survival and prognosis of
+    patients. However, early EC is difficult to diagnose by a routine
+    endoscopic examination. Therefore, convolutional neural network
+    (CNN)-based artificial intelligence (AI) has become a very promising
+    method in the diagnosis of early EC using endoscopic images. The aim
+    of this study was to evaluate the diagnostic performance of
+    CNN-based AI for detecting early EC based on endoscopic images.
+    METHODS: A comprehensive search was performed to identify relevant
+    English articles concerning CNN-based AI in the diagnosis of early
+    EC based on endoscopic images (from the date of database
+    establishment to April 2022). The pooled sensitivity (SEN), pooled
+    specificity (SPE), positive likelihood ratio (LR+), negative
+    likelihood ratio (LR-), diagnostic odds ratio (DOR) with 95%
+    confidence interval (CI), summary receiver operating characteristic
+    (SROC) curve, and area under the curve (AUC) for the accuracy of
+    CNN-based AI in the diagnosis of early EC based on endoscopic images
+    were calculated. We used the I2 test to assess heterogeneity and
+    investigated the source of heterogeneity by performing
+    meta-regression analysis. Publication bias was assessed using Deeks'
+    funnel plot asymmetry test. RESULTS: Seven studies met the
+    eligibility criteria. The SEN and SPE were 0.90 (95% confidence
+    interval [CI]: 0.82-0.94) and 0.91 (95% CI: 0.79-0.96),
+    respectively. The LR+ of the malignant ultrasonic features was 9.8
+    (95% CI: 3.8-24.8) and the LR- was 0.11 (95% CI: 0.06-0.21),
+    revealing that CNN-based AI exhibited an excellent ability to
+    confirm or exclude early EC on endoscopic images. Additionally, SROC
+    curves showed that the AUC of the CNN-based AI in the diagnosis of
+    early EC based on endoscopic images was 0.95 (95% CI: 0.93-0.97),
+    demonstrating that CNN-based AI has good diagnostic value for early
+    EC based on endoscopic images. CONCLUSIONS: Based on our
+    meta-analysis, CNN-based AI is an excellent diagnostic tool with
+    high sensitivity, specificity, and AUC in the diagnosis of early EC
+    based on endoscopic images.
+    日期 	2022
+    语言 	eng
+    短标题 	Convolutional neural network-based artificial intelligence
+    for the diagnosis of early esophageal cancer based on endoscopic images
+    文库编目 	PubMed
+    其他 	PMID: 35848703 PMCID: PMC9752541 TLDR: Based on the
+    meta-analysis, CNN-based AI is an excellent diagnostic tool with
+    high sensitivity, specificity, and AUC in the diagnosis of early EC
+    based on endoscopic images.
+    卷次 	28
+    页码 	332-340
+    刊名 	Saudi Journal of Gastroenterology: Official Journal of the
+    Saudi Gastroenterology Association
+    DOI 	10.4103/sjg.sjg_178_22 <http://doi.org/10.4103/sjg.sjg_178_22>
+    期号 	5
+    刊名简称 	Saudi J Gastroenterol
+    ISSN 	1998-4049
+    添加日期 	2025/11/20 15:20:23
+    修改日期 	2025/11/20 15:53:36
+
+
+          附件
+
+      o PubMed entry
+  *
+
+
+        Identification of environmental microorganism using optimally
+        fine-tuned convolutional neural network
+
+    条目类型 	期刊文章
+    作者 	Wei-Chun Chen
+    作者 	Ping-Yu Liu
+    作者 	Chun-Chi Lai
+    作者 	Yu-Hao Lin
+    摘要 	To not only optimize the hyper-parameters of the
+    classification layer of dense convolutional network with 201
+    convolutional layers (DenseNet-201) but also use data augmentation
+    processes could enhance the performance of DenseNet-201, and
+    DenseNet-201 is rarely applied to the identifications of the
+    environmental microorganism (EM) images. Hence, this study was to
+    propose the optimally fine-tuned DenseNet-201 (OFTD) with data
+    augmentation to better classify the EM images on Environmental
+    Microorganism Dataset (EMDS). The training dataset was composed of
+    70% Environmental Microorganism Dataset (EMDS) images and so was
+    mainly used to fit the parameters of convolutional layers of
+    optimally fine-tuned DenseNet-201 (OFTD). Meanwhile, the other EMDS
+    images were considered as the testing dataset and used to qualify
+    the performance of the OFTD. Also, gradient-weighted class
+    activation mapping method (Grad-CAM) was adopted to visually
+    illustrate the dominant features of the EM images. Based on the
+    results, the OFTD model with data augmentation achieved the highest
+    classification accuracy of 98.4%. In this case, so its stability and
+    accuracy were guaranteed. Besides, the optimally fine-tuned
+    classification layer is considered a more efficient method than the
+    data augmentation technique adopted in this study when it comes to
+    the improvement of the performance in DenseNet-201 implemented on
+    EMDS. Grad-CAM highlighted the coarse EM features identified
+    effectively by the OFTD; for example, foot and stalk were considered
+    as the dominated features of Rotifera and Vorticella, respectively.
+    In summary, the proposed OFTD with data augmentation could provide
+    an efficient solution for the EM detection in digital microscope.
+    日期 	2022-04-15
+    语言 	eng
+    文库编目 	PubMed
+    其他 	PMID: 34953885 TLDR: The proposed optimally fine-tuned
+    DenseNet-201 (OFTD) with data augmentation could provide an
+    efficient solution for the EM detection in digital microscope.
+    卷次 	206
+    页码 	112610
+    刊名 	Environmental Research
+    DOI 	10.1016/j.envres.2021.112610
+    <http://doi.org/10.1016/j.envres.2021.112610>
+    刊名简称 	Environ Res
+    ISSN 	1096-0953
+    添加日期 	2025/11/20 15:20:23
+    修改日期 	2025/11/20 15:54:36
+
+
+          附件
+
+      o PubMed entry
+  *
+
+
+        The diagnosis performance of convolutional neural network in the
+        detection of pulmonary nodules: a systematic review and
+        meta-analysis
+
+    条目类型 	期刊文章
+    作者 	Xinyue Zhang
+    作者 	Bo Liu
+    作者 	Kefu Liu
+    作者 	Lina Wang
+    摘要 	BACKGROUND: Pulmonary nodules are an early imaging indication
+    of lung cancer, and early detection of pulmonary nodules can improve
+    the prognosis of lung cancer. As one of the applications of machine
+    learning, the convolutional neural network (CNN) applied to computed
+    tomography (CT) imaging data improves the accuracy of diagnosis, but
+    the results could be more consistent. PURPOSE: To evaluate the
+    diagnostic performance of CNN in assisting in detecting pulmonary
+    nodules in CT images. MATERIAL AND METHODS: PubMed, Cochrane
+    Library, Web of Science, Elsevier, CNKI and Wanfang databases were
+    systematically retrieved before 30 April 2023. Two reviewers
+    searched and checked the full text of articles that might meet the
+    criteria. The reference criteria are joint diagnoses by experienced
+    physicians. The pooled sensitivity, specificity and the area under
+    the summary receiver operating characteristic curve (AUC) were
+    calculated by a random-effects model. Meta-regression analysis was
+    performed to explore potential sources of heterogeneity. RESULTS:
+    Twenty-six studies were included in this meta-analysis, involving
+    2,391,702 regions of interest, comprising segmented images with a
+    few wide pixels. The combined sensitivity and specificity values of
+    the CNN model in detecting pulmonary nodules were 0.93 and 0.95,
+    respectively. The pooled diagnostic odds ratio was 291. The AUC was
+    0.98. There was heterogeneity in sensitivity and specificity among
+    the studies. The results suggested that data sources, pretreatment
+    methods, reconstruction slice thickness, population source and
+    locality might contribute to the heterogeneity of these eligible
+    studies. CONCLUSION: The CNN model can be a valuable diagnostic tool
+    with high accuracy in detecting pulmonary nodules.
+    日期 	2023-12
+    语言 	eng
+    短标题 	The diagnosis performance of convolutional neural network in
+    the detection of pulmonary nodules
+    文库编目 	PubMed
+    其他 	PMID: 37743663 TLDR: The CNN model can be a valuable
+    diagnostic tool with high accuracy in detecting pulmonary nodules in
+    CT images and suggested that data sources, pretreatment methods,
+    reconstruction slice thickness, population source and locality might
+    contribute to the heterogeneity of these eligible studies.
+    卷次 	64
+    页码 	2987-2998
+    刊名 	Acta Radiologica (Stockholm, Sweden: 1987)
+    DOI 	10.1177/02841851231201514
+    <http://doi.org/10.1177/02841851231201514>
+    期号 	12
+    刊名简称 	Acta Radiol
+    ISSN 	1600-0455
+    添加日期 	2025/11/20 15:20:23
+    修改日期 	2025/11/20 15:22:01
+
+
+          附件
+
+      o PubMed entry
+  *
+
+
+        Evaluation of deep learning and convolutional neural network
+        algorithms accuracy for detecting and predicting anatomical
+        landmarks on 2D lateral cephalometric images: A systematic
+        review and meta-analysis
+
+    条目类型 	期刊文章
+    作者 	Jimmy Londono
+    作者 	Shohreh Ghasemi
+    作者 	Altaf Hussain Shah
+    作者 	Amir Fahimipour
+    作者 	Niloofar Ghadimi
+    作者 	Sara Hashemi
+    作者 	Zohaib Khurshid
+    作者 	Mahmood Dashti
+    摘要 	INTRODUCTION: Cephalometry is the study of skull measurements
+    for clinical evaluation, diagnosis, and surgical planning. Machine
+    learning (ML) algorithms have been used to accurately identify
+    cephalometric landmarks and detect irregularities related to
+    orthodontics and dentistry. ML-based cephalometric imaging reduces
+    errors, improves accuracy, and saves time. METHOD: In this study, we
+    conducted a meta-analysis and systematic review to evaluate the
+    accuracy of ML software for detecting and predicting anatomical
+    landmarks on two-dimensional (2D) lateral cephalometric images. The
+    meta-analysis followed the Preferred Reporting Items for Systematic
+    Reviews and Meta-Analyses (PRISMA) guidelines for selecting and
+    screening research articles. The eligibility criteria were
+    established based on the diagnostic accuracy and prediction of ML
+    combined with 2D lateral cephalometric imagery. The search was
+    conducted among English articles in five databases, and data were
+    managed using Review Manager software (v. 5.0). Quality assessment
+    was performed using the diagnostic accuracy studies (QUADAS-2) tool.
+    RESULT: Summary measurements included the mean departure from the
+    1-4-mm threshold or the percentage of landmarks identified within
+    this threshold with a 95% confidence interval (CI). This
+    meta-analysis included 21 of 577 articles initially collected on the
+    accuracy of ML algorithms for detecting and predicting anatomical
+    landmarks. The studies were conducted in various regions of the
+    world, and 20 of the studies employed convolutional neural networks
+    (CNNs) for detecting cephalometric landmarks. The pooled successful
+    detection rates for the 1-mm, 2-mm, 2.5-mm, 3-mm, and 4-mm ranges
+    were 65%, 81%, 86%, 91%, and 96%, respectively. Heterogeneity was
+    determined using the random effect model. CONCLUSION: In conclusion,
+    ML has shown promise for landmark detection in 2D cephalometric
+    imagery, although the accuracy has varied among studies and
+    clinicians. Consequently, more research is required to determine its
+    effectiveness and reliability in clinical settings.
+    日期 	2023-07
+    语言 	eng
+    短标题 	Evaluation of deep learning and convolutional neural network
+    algorithms accuracy for detecting and predicting anatomical
+    landmarks on 2D lateral cephalometric images
+    文库编目 	PubMed
+    其他 	PMID: 37520606 PMCID: PMC10373073 TLDR: A meta-analysis and
+    systematic review evaluated the accuracy of ML software for
+    detecting and predicting anatomical landmarks on two-dimensional
+    (2D) lateral cephalometric images to show promise for landmark
+    detection in 2D cepHalometric imagery, although the accuracy has
+    varied among studies and clinicians.
+    卷次 	35
+    页码 	487-497
+    刊名 	The Saudi Dental Journal
+    DOI 	10.1016/j.sdentj.2023.05.014
+    <http://doi.org/10.1016/j.sdentj.2023.05.014>
+    期号 	5
+    刊名简称 	Saudi Dent J
+    ISSN 	1013-9052
+    添加日期 	2025/11/20 15:20:23
+    修改日期 	2025/11/20 15:46:12
+
+
+          附件
+
+      o PubMed entry
+  *
+
+
+        DeephageTP: a convolutional neural network framework for
+        identifying phage-specific proteins from metagenomic sequencing data
+
+    条目类型 	期刊文章
+    作者 	Yunmeng Chu
+    作者 	Shun Guo
+    作者 	Dachao Cui
+    作者 	Xiongfei Fu
+    作者 	Yingfei Ma
+    摘要 	Bacteriophages (phages) are the most abundant and diverse
+    biological entity on Earth. Due to the lack of universal gene
+    markers and database representatives, there about 50-90% of genes of
+    phages are unable to assign functions. This makes it a challenge to
+    identify phage genomes and annotate functions of phage genes
+    efficiently by homology search on a large scale, especially for
+    newly phages. Portal (portal protein), TerL (large terminase subunit
+    protein), and TerS (small terminase subunit protein) are three
+    specific proteins of Caudovirales phage. Here, we developed a CNN
+    (convolutional neural network)-based framework, DeephageTP, to
+    identify the three specific proteins from metagenomic data. The
+    framework takes one-hot encoding data of original protein sequences
+    as the input and automatically extracts predictive features in the
+    process of modeling. To overcome the false positive problem, a
+    cutoff-loss-value strategy is introduced based on the distributions
+    of the loss values of protein sequences within the same category.
+    The proposed model with a set of cutoff-loss-values demonstrates
+    high performance in terms of Precision in identifying TerL and
+    Portal sequences (94% and 90%, respectively) from the mimic
+    metagenomic dataset. Finally, we tested the efficacy of the
+    framework using three real metagenomic datasets, and the results
+    shown that compared to the conventional alignment-based methods, our
+    proposed framework had a particular advantage in identifying the
+    novel phage-specific protein sequences of portal and TerL with
+    remote homology to their counterparts in the training datasets. In
+    summary, our study for the first time develops a CNN-based framework
+    for identifying the phage-specific protein sequences with high
+    complexity and low conservation, and this framework will help us
+    find novel phages in metagenomic sequencing data. The DeephageTP is
+    available at https://github.com/chuym726/DeephageTP.
+    日期 	2022
+    语言 	eng
+    短标题 	DeephageTP
+    文库编目 	PubMed
+    其他 	PMID: 35698617 PMCID: PMC9188312 TLDR: This study for the
+    first time develops a CNN-based framework for identifying the
+    phage-specific protein sequences with high complexity and low
+    conservation, and this framework will help to find novel phages in
+    metagenomic sequencing data.
+    卷次 	10
+    页码 	e13404
+    刊名 	PeerJ
+    DOI 	10.7717/peerj.13404 <http://doi.org/10.7717/peerj.13404>
+    刊名简称 	PeerJ
+    ISSN 	2167-8359
+    添加日期 	2025/11/20 15:20:23
+    修改日期 	2025/11/20 15:23:11
+
+
+          附件
+
+      o Full Text PDF
+      o PubMed entry
+  *
+
+
+        Convolutional Neural Networks: A Survey
+
+    条目类型 	网页
+    网址 	https://www.mdpi.com/2073-431X/12/8/151
+    <https://www.mdpi.com/2073-431X/12/8/151>
+    访问时间 	2025/11/20 15:12:48
+    添加日期 	2025/11/20 15:12:48
+    修改日期 	2025/11/20 15:22:35
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        Scaling transformer neural networks for skillful and reliable
+        medium-range weather forecasting
+
+    条目类型 	网页
+    网址
+    https://proceedings.neurips.cc/paper_files/paper/2024/hash/7f19b99e63762d20e9df91144056f1ee-Abstract-Conference.html <https://proceedings.neurips.cc/paper_files/paper/2024/hash/7f19b99e63762d20e9df91144056f1ee-Abstract-Conference.html>
+    访问时间 	2025/11/20 15:07:53
+    添加日期 	2025/11/20 15:07:53
+    修改日期 	2025/11/20 15:07:53
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        An on-chip photonic deep neural network for image classification
+
+    条目类型 	期刊文章
+    作者 	Farshid Ashtiani
+    作者 	Alexander J. Geers
+    作者 	Firooz Aflatouni
+    日期 	2022-06-16
+    语言 	en
+    文库编目 	DOI.org (Crossref)
+    网址 	https://www.nature.com/articles/s41586-022-04714-0
+    <https://www.nature.com/articles/s41586-022-04714-0>
+    访问时间 	2025/11/20 14:33:56
+    其他 	remark: Nature TLDR: An integrated end-to-end photonic deep
+    neural network (PDNN) that performs sub-nanosecond image
+    classification through direct processing of the optical waves
+    impinging on the on-chip pixel array as they propagate through
+    layers of neurons is reported.
+    卷次 	606
+    页码 	501-506
+    刊名 	Nature
+    DOI 	10.1038/s41586-022-04714-0
+    <http://doi.org/10.1038/s41586-022-04714-0>
+    期号 	7914
+    刊名简称 	Nature
+    ISSN 	0028-0836, 1476-4687
+    添加日期 	2025/11/20 14:33:56
+    修改日期 	2025/11/20 14:37:05
+
+
+          标签：
+
+      o ⭐⭐⭐⭐⭐
+
+
+          附件
+
+      o PDF
+  *
+
+
+        动态图-时间卷积神经网络EEG-fNIRS多模态运动想象/执行解码
+
+    条目类型 	期刊文章
+    作者 	颜亨
+    作者 	周正康
+    作者 	何新生
+    作者 	李俊华
+    作者 	袁振
+    作者 	王洪涛
+    摘要 	本文提出一种基于动态图卷积和时间卷积的深度学习模型,用于联合分
+    析脑电图、功能性近红外光谱多模态信号,以实现空间信息和时间信息的互补.
+    具体为:首先利用锁相值方法分别确定脑电图、功能性近红外光谱通道间的图
+    结构信息.其次将经过预处理的脑电图和功能性近红外光谱数据分别输入卷积
+    层.再次将这些由卷积层输出的特征信息和图结构信息输入动态图卷积神经网
+    络进行处理.进一步通过一层时间卷积分别提取两种数据的时间特征,将输出结
+    果进行拼接输入至一层卷积中进行特征层面融合.最后通过全连接层得到融合
+    后的分类结果.为评估提出模型的性能,采用三个数据集:A、B、C进行测试.实
+    验结果表明:本模型在三个数据集的分类结果分别为78.45%、86.60%、84.77%,
+    均优于脑电图分类结果75.09%、82.53%、83.08%和功能性近红外光谱分类结果
+    63.82%、57.67%、69.38%.消融实验亦验证了本模型具有较强的鲁棒性.
+    日期 	2024-12-02
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址
+    https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CAPJ&dbname=CAPJLAST&filename=KZLY2024112900S <https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CAPJ&dbname=CAPJLAST&filename=KZLY2024112900S>
+    访问时间 	2025/11/20 14:23:49
+    其他 	remark: 控制理论与应用 B original-container-title: Control
+    Theory & Applications Status: advance online publication foundation:
+    广东省科技厅国际合作项目(2023A0505050144)； 五邑大学大学生创新创业训
+    练计划项目(2021CX07,2024039)资助； download: 537 album: 基础科学;医
+    药卫生科技;信息科技 CLC: R318;TP183;TN911.7 dbcode: CAPJ dbname:
+    CAPJLAST filename: KZLY2024112900S publicationTag: 北大核心, CAS,
+    INSPEC, JST, Pж(AJ), EI, CSCD, WJCI CIF: 2.971 AIF: 1.531
+    刊名 	控制理论与应用
+    ISSN 	1000-8152
+    添加日期 	2025/11/20 14:23:49
+    修改日期 	2025/11/20 14:38:17
+
+
+          附件
+
+      o Full Text PDF
+  *
+
+
+        基于全局局部协同的非均匀图像去雾方法
+
+    条目类型 	期刊文章
+    作者 	罗小同
+    作者 	杨汶锦
+    作者 	曲延云
+    作者 	谢源
+    摘要 	近年来,基于卷积神经网络(Convolutional neural network, CNN)的图
+    像去雾方法在合成数据集上取得了显著的进展,但由于真实场景中存在雾分布
+    不均的问题,卷积运算的局部感受野难以有效捕获到上下文指导信息,从而导致
+    全局结构信息丢失.因此,真实场景下的图像去雾任务面临着巨大的挑战.考虑
+    到Transformer具有捕获长距离语义信息依赖关系的优势,有利于引导全局结构
+    信息重建.然而,标准Transformer结构的高计算复杂度阻碍了其在图像恢复中
+    的应用.针对上述提到的问题,提出一个由Transformer和卷积神经网络组成的
+    双分支协同非均匀图像去雾网络Dehazeformer.Transformer分支用于提取全局
+    结构信息,同时设计稀疏自注意力模块(Sparse self-attention modules,
+    SSM)以降低计算复杂度.卷积神经网络分支用于获取局部信息,从而恢复纹理细
+    节.在真实非均匀有雾场景下的实验结果表明,该方法不管是在客观评价还是在
+    主观视觉效果方面均达到优异的性能.
+    日期 	2024
+    语言 	zh-CN
+    文库编目 	CNKI
+    网址 	https://doi.org/10.16383/j.aas.c230567
+    <https://doi.org/10.16383/j.aas.c230567>
+    访问时间 	2025/11/20 14:20:58
+    其他 	remark: 自动化学报 A original-container-title: Acta Automatica
+    Sinica foundation: 国家自然科学基金(62176224,62222602)资助~~；
+    download: 458 album: 信息科技 CLC: TP391.41 dbcode: CJFQ dbname:
+    CJFDLAST2024 filename: MOTO202407013 publicationTag: 北大核心, CAS,
+    JST, EI, CSCD, WJCI, 卓越期刊 CIF: 6.32 AIF: 3.178
+    卷次 	50
+    页码 	1333-1344
+    刊名 	自动化学报
+    DOI 	10.16383/j.aas.c230567 <http://doi.org/10.16383/j.aas.c230567>
+    期号 	7
+    ISSN 	0254-4156
+    添加日期 	2025/11/20 14:20:58
+    修改日期 	2025/11/20 14:37:49
+
+
+          附件
+
+      o Full Text PDF
+
