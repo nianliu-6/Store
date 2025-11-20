@@ -1,0 +1,20 @@
+```mermaid
+graph LR
+    subgraph Traditional_CNN [传统 CNN：堆叠小卷积]
+        direction TB
+        A1[输入特征] --> B1[3×3 卷积 + ReLU]
+        B1 --> C1[3×3 卷积 + ReLU]
+        C1 --> D1[3×3 卷积 + ReLU]
+        D1 --> E1[输出 (感受野受限)]
+    end
+
+    subgraph LargeKernel_CNN [大卷积核范式 (UniRepLKNet)]
+        direction TB
+        A2[输入特征] --> B2[大卷积核 (e.g. 31x31)]
+        B2 --> C2[1x1 逐点卷积/深度可分离]
+        C2 --> E2[输出 (大感受野 + 形状偏置)]
+    end
+
+    style Traditional_CNN fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style LargeKernel_CNN fill:#e1f5fe,stroke:#333,stroke-width:2px
+```
